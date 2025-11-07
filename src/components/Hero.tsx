@@ -42,16 +42,6 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Trust Indicators */}
-          <div className="mt-16 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-            <p className="text-sm text-primary-foreground/70 mb-6">Trusted by leading enterprises</p>
-            <div className="flex flex-wrap justify-center gap-8 items-center opacity-60">
-              <div className="px-6 py-3 bg-primary-foreground/10 rounded-lg text-sm font-semibold">Enterprise A</div>
-              <div className="px-6 py-3 bg-primary-foreground/10 rounded-lg text-sm font-semibold">Enterprise B</div>
-              <div className="px-6 py-3 bg-primary-foreground/10 rounded-lg text-sm font-semibold">Enterprise C</div>
-              <div className="px-6 py-3 bg-primary-foreground/10 rounded-lg text-sm font-semibold">Enterprise D</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

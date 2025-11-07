@@ -52,22 +52,6 @@ const Results = () => {
           ))}
         </div>
 
-        <div className="max-w-3xl mx-auto bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-8 border border-primary-foreground/20">
-          <div className="flex gap-4">
-            <div className="flex-shrink-0 text-6xl text-primary-foreground/40">"</div>
-            <div>
-              <p className="text-lg md:text-xl mb-4 text-primary-foreground/90 italic">
-                PLUGD.AI transformed our procurement process. What used to take days now happens in minutes, with complete visibility and zero errors. Our team can finally focus on strategic work instead of pushing paper.
-              </p>
-              <div className="font-semibold text-primary-foreground">
-                Sarah Johnson
-              </div>
-              <div className="text-sm text-primary-foreground/70">
-                Director of Procurement, Enterprise Corp
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
