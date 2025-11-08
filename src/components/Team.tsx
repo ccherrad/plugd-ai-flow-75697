@@ -15,10 +15,10 @@ const Team = () => {
             We've spent years helping businesses streamline operations, cut costs, and eliminate manual workflows. Now we're building the tool we always wished existed.
           </p>
           <p className="text-base text-muted-foreground leading-relaxed border-l-4 border-primary pl-6 italic">
-            "Every feature we ship is something we'd want to use ourselves. We're building PLUGD.AI transparently—one feature at a time, with real feedback from real users."
+            "Every feature we ship is something we'd want to use ourselves. We're building stckd.ai transparently—one feature at a time, with real feedback from real users."
           </p>
           <div className="mt-8">
-            <p className="text-sm font-medium text-foreground">— The PLUGD.AI Team</p>
+            <p className="text-sm font-medium text-foreground">— The stckd.ai Team</p>
           </div>
         </div>
       </div>
