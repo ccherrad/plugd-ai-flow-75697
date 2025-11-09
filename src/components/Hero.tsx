@@ -19,9 +19,11 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-            <Button size="lg" className="bg-cta hover:bg-cta/90 text-cta-foreground text-base px-8 py-6">
-              Join Early Access
-              <ArrowRight className="ml-2 h-5 w-5" />
+            <Button size="lg" className="bg-cta hover:bg-cta/90 text-cta-foreground text-base px-8 py-6" asChild>
+              <a href="https://dev.plugd.space/" target="_blank" rel="noopener noreferrer">
+                Join Early Access
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
             <Button size="lg" variant="outline" className="text-base px-8 py-6">
               Learn More
