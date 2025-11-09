@@ -1,6 +1,6 @@
 import { FileWarning, AlertTriangle, DollarSign } from "lucide-react";
 
-const ProblemStatement = () => {
+const Vision = () => {
   const painPoints = [
     {
       icon: FileWarning,
@@ -45,9 +45,21 @@ const ProblemStatement = () => {
           ))}
         </div>
 
-        <div className="text-center">
+        <div className="text-center mb-16">
           <p className="text-2xl font-semibold text-foreground">
             There's a better way →
+          </p>
+        </div>
+
+        <div className="max-w-3xl mx-auto text-center bg-primary/5 border border-primary/10 rounded-2xl p-8 md:p-12">
+          <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+            Our Vision: Intelligent Procurement
+          </h3>
+          <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-4">
+            We're building a platform where invoices and contracts flow automatically from upload to payment—extracted, validated, matched to POs, routed for approval, and reconciled with zero manual effort.
+          </p>
+          <p className="text-sm text-muted-foreground italic">
+            We're not just digitizing paperwork. We're rethinking how procurement gets done.
           </p>
         </div>
       </div>
@@ -55,4 +67,4 @@ const ProblemStatement = () => {
   );
 };
 
-export default ProblemStatement;
+export default Vision;

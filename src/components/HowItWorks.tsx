@@ -27,7 +27,7 @@ const HowItWorks = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            From Upload to Payment in Minutes, Not Days
+            From Invoice Upload to Payment in Minutes, Not Days
           </h2>
         </div>
 
