@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-2xl font-bold mb-3">stckd.ai</h3>
           <p className="text-primary-foreground/80 text-sm mb-6">
-            Building the future of business document intelligence
+            Building the future of procurement automation
           </p>
           
           <div className="flex items-center justify-center gap-2 text-sm text-primary-foreground/70 mb-8">

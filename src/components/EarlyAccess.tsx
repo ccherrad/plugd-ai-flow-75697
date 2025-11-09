@@ -19,7 +19,7 @@ const EarlyAccess = () => {
                 Become an Early Adopter
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                We're looking for forward-thinking teams who want to test PLUGD.AI in their workflows. Get early access, share feedback, and help us build the future of document automation.
+                We're looking for forward-thinking procurement teams who want to test stckd.ai in their workflows. Get early access, share feedback, and help us build the future of procurement automation.
               </p>
               <div className="space-y-4 text-sm text-muted-foreground">
                 <div className="flex items-start gap-3">

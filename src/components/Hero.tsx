@@ -1,27 +1,21 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import plugdLogo from "@/assets/plugd-logo.png";
 
 const Hero = () => {
   return (
     <section className="relative overflow-hidden bg-background">
       <div className="container relative mx-auto px-4 py-16 md:py-24">
-        {/* Logo */}
-        <div className="flex justify-center mb-12 animate-fade-in-up">
-          <img src={plugdLogo} alt="PLUGD.AI" className="h-12 md:h-16" />
-        </div>
-
         <div className="mx-auto max-w-4xl text-center">
           <div className="inline-block mb-6 px-4 py-2 bg-muted rounded-full text-sm font-medium text-muted-foreground animate-fade-in-up">
             Currently in MVP • Open for Early Adopters
           </div>
           
           <h1 className="mb-6 text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-            We're Building the Future of<br />Business Document Intelligence
+            We're Building the Future of<br />Procurement Automation
           </h1>
           
           <p className="mb-10 text-lg text-muted-foreground md:text-xl max-w-2xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            An AI-powered platform to automate document workflows, extract data intelligently, and orchestrate business processes—built for teams who want to move fast and work smarter.
+            An AI-powered platform to automate procurement workflows, extract invoice and contract data intelligently, and orchestrate approval processes—built for procurement teams who want to move fast and work smarter.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: '0.3s' }}>

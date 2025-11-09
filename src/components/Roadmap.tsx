@@ -2,18 +2,18 @@ import { CheckCircle2, Clock } from "lucide-react";
 
 const Roadmap = () => {
   const builtFeatures = [
-    "Document upload and storage",
-    "AI-powered data extraction",
-    "Invoice and contract management",
-    "Basic workflow automation",
-    "Search and filtering"
+    "Invoice & contract upload and storage",
+    "AI-powered data extraction from invoices",
+    "3-way matching (PO, receipt, invoice)",
+    "Basic approval workflows",
+    "Vendor and catalog management"
   ];
 
   const comingSoon = [
-    "Advanced approval workflows",
-    "Real-time analytics dashboard",
-    "Third-party integrations (ERP, CRM)",
-    "Multi-tenant workspace support",
+    "Multi-level approval routing by spend thresholds",
+    "Real-time spend analytics and budget tracking",
+    "ERP integrations (SAP, Oracle, NetSuite, QuickBooks)",
+    "Contract renewal alerts and compliance tracking",
     "Mobile app for on-the-go approvals"
   ];
 

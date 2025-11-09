@@ -6,10 +6,10 @@ const Vision = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            The Problem We're Solving
+            The Procurement Problem
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Business documents live in silos. Data extraction is manual. Workflows are fragmented. There's a better way.
+            Procurement teams are stuck between legacy ERP systems and manual spreadsheets, wasting hours on invoice processing and contract review.
           </p>
         </div>
 
@@ -20,9 +20,9 @@ const Vision = () => {
                 <FileWarning className="h-6 w-6 text-destructive" />
               </div>
             </div>
-            <h3 className="text-lg font-semibold mb-3 text-foreground">Manual Processes</h3>
+            <h3 className="text-lg font-semibold mb-3 text-foreground">Manual Invoice Processing</h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Teams waste hours copying data from PDFs, chasing approvals, and reconciling documents across disconnected systems.
+              Teams spend hours manually reviewing invoices, checking against POs, and routing for approvals.
             </p>
           </div>
 
@@ -32,9 +32,9 @@ const Vision = () => {
                 <Zap className="h-6 w-6 text-muted-foreground" />
               </div>
             </div>
-            <h3 className="text-lg font-semibold mb-3 text-foreground">Slow to Scale</h3>
+            <h3 className="text-lg font-semibold mb-3 text-foreground">Contract Review Bottlenecks</h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              As businesses grow, document volume explodes—but workflows stay stuck in spreadsheets and email threads.
+              Legal and procurement teams struggle to track contract terms, renewals, and compliance requirements.
             </p>
           </div>
 
@@ -44,22 +44,22 @@ const Vision = () => {
                 <Target className="h-6 w-6 text-muted-foreground" />
               </div>
             </div>
-            <h3 className="text-lg font-semibold mb-3 text-foreground">No Clear ROI</h3>
+            <h3 className="text-lg font-semibold mb-3 text-foreground">Costly Errors</h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Without centralized tracking or analytics, it's impossible to measure efficiency gains or cost savings.
+              Duplicate payments, missed discounts, and pricing errors drain budgets without visibility.
             </p>
           </div>
         </div>
 
         <div className="max-w-3xl mx-auto text-center bg-primary/5 border border-primary/10 rounded-2xl p-8 md:p-12">
           <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-            Our Vision: Intelligent Workflows
+            Our Vision: Intelligent Procurement
           </h3>
           <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-4">
-            PLUGD.AI is building a platform where documents flow automatically from upload to processing to action—powered by AI that learns your business rules and gets smarter over time.
+            We're building a platform where invoices and contracts flow automatically from upload to payment—extracted, validated, matched to POs, routed for approval, and reconciled with zero manual effort.
           </p>
           <p className="text-sm text-muted-foreground italic">
-            We're not just digitizing paperwork. We're rethinking how work gets done.
+            We're not just digitizing paperwork. We're rethinking how procurement gets done.
           </p>
         </div>
       </div>

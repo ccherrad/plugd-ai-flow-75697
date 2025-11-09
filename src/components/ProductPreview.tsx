@@ -10,7 +10,7 @@ const ProductPreview = () => {
             See What We're Building
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A clean, intuitive interface for managing documents with AI-powered automation under the hood.
+            A clean, intuitive interface for managing procurement documents with AI-powered automation under the hood.
           </p>
         </div>
 
