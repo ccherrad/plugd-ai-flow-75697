@@ -1,54 +1,42 @@
-import { Factory, Heart, ShoppingBag, Briefcase } from "lucide-react";
+import { Hotel, Heart, Briefcase } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const UseCases = () => {
   const industries = [
     {
-      id: "manufacturing",
-      icon: Factory,
-      name: "Manufacturing",
-      description: "Manage complex supplier networks and multi-tier approvals",
+      id: "hospitality",
+      icon: Hotel,
+      name: "Hotels & Restaurants",
+      description: "Seeking spend visibility across locations",
       benefits: [
-        "Handle high-volume purchase orders across global supply chains",
-        "Automated compliance with industry regulations",
-        "Real-time visibility into supplier performance",
-        "Streamlined contract negotiations with multiple vendors"
+        "Track pricing variances across multiple hotel or restaurant locations",
+        "Compare supplier contracts and identify cost-saving opportunities",
+        "Automate invoice matching for food, beverage, and supply orders",
+        "Maintain audit trails for franchise or corporate compliance"
       ]
     },
     {
       id: "healthcare",
       icon: Heart,
-      name: "Healthcare",
-      description: "Ensure compliance with regulatory requirements and vendor credentials",
+      name: "Healthcare Networks",
+      description: "Managing supplier and invoice complexity",
       benefits: [
-        "Automated verification of vendor certifications and licenses",
-        "HIPAA-compliant document processing and storage",
-        "Track medical supply contracts and expiration dates",
-        "Audit trails for regulatory compliance"
+        "Handle complex medical supply and pharmaceutical invoicing",
+        "Ensure contract compliance across multiple facilities",
+        "Detect pricing anomalies and duplicate charges",
+        "Maintain regulatory compliance with detailed audit logs"
       ]
     },
     {
-      id: "retail",
-      icon: ShoppingBag,
-      name: "Retail",
-      description: "Process high volumes of invoices with automated 3-way matching",
-      benefits: [
-        "Handle thousands of SKUs and supplier invoices",
-        "Automated matching between POs, receipts, and invoices",
-        "Seasonal demand forecasting integration",
-        "Multi-location procurement coordination"
-      ]
-    },
-    {
-      id: "services",
+      id: "finance",
       icon: Briefcase,
-      name: "Professional Services",
-      description: "Track project-based procurement and client billing",
+      name: "Finance & Procurement Teams",
+      description: "Who want smarter workflows without heavy ERP tools",
       benefits: [
-        "Project-specific purchase tracking and allocation",
-        "Client billing integration with procurement data",
-        "Consultant and contractor management",
-        "Time and materials tracking"
+        "Eliminate manual Excel-based invoice validation",
+        "Get instant visibility into multi-site spending patterns",
+        "Automate anomaly detection without complex system integration",
+        "Make data-driven decisions with visual spend analytics"
       ]
     }
   ];
@@ -58,16 +46,16 @@ const UseCases = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Built for Every Industry
+            Who It's For
           </h2>
         </div>
 
         <div className="max-w-5xl mx-auto">
-          <Tabs defaultValue="manufacturing" className="w-full">
-            <TabsList className="grid w-full grid-cols-2 lg:grid-cols-4 mb-8">
+          <Tabs defaultValue="hospitality" className="w-full">
+            <TabsList className="grid w-full grid-cols-1 lg:grid-cols-3 mb-8">
               {industries.map((industry) => (
-                <TabsTrigger 
-                  key={industry.id} 
+                <TabsTrigger
+                  key={industry.id}
                   value={industry.id}
                   className="flex items-center gap-2"
                 >
@@ -93,7 +81,7 @@ const UseCases = () => {
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="space-y-3">
                     {industry.benefits.map((benefit, index) => (
                       <div key={index} className="flex items-start gap-3">
