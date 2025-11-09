@@ -39,8 +39,11 @@ const KeyFeatures = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Powered by AI. Built for Enterprise.
+            Powered by AI. Built for Your Team.
           </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Enterprise-grade features that enhance your team's capabilities
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">

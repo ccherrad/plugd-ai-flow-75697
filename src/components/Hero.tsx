@@ -12,7 +12,7 @@ const Hero = () => {
             Transform Procurement from Chaos to Control
           </h1>
           <p className="mb-10 text-lg text-primary-foreground/90 md:text-xl lg:text-2xl max-w-3xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-            AI-powered procure-to-pay automation that takes you from RFP to reconciliation—eliminating manual work, ensuring compliance, and saving costs at every step
+            Your AI procurement assistant that handles the heavy lifting from RFP to reconciliation—empowering your team to focus on strategic decisions while ensuring compliance and saving costs at every step
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
