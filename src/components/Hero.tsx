@@ -13,9 +13,9 @@ const Hero = () => {
           <h1 className="mb-6 text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
             We're Building the Future of<br />Procurement Automation
           </h1>
-          
+
           <p className="mb-10 text-lg text-muted-foreground md:text-xl max-w-2xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            An AI-powered platform to automate procurement workflows, extract invoice and contract data intelligently, and orchestrate approval processes—built for procurement teams who want to move fast and work smarter.
+            Your AI procurement assistant that handles the heavy lifting from RFP to reconciliation—empowering your team to focus on strategic decisions while ensuring compliance and saving costs at every step.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: '0.3s' }}>

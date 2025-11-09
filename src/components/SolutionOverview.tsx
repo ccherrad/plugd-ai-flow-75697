@@ -56,8 +56,11 @@ const SolutionOverview = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            From Invoice to Payment. Fully Automated.
+            One Platform. Every Step. Intelligently Assisted.
           </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            AI that works alongside your team, automating repetitive tasks while keeping humans in control of key decisions
+          </p>
         </div>
 
         <div className="max-w-6xl mx-auto">
