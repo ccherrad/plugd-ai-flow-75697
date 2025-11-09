@@ -1,36 +1,36 @@
-import { Brain, CheckCircle2, Database, Eye, Plug, Building2 } from "lucide-react";
+import { FileCheck, Building2, AlertTriangle, Bell, Plug, FileText } from "lucide-react";
 
 const KeyFeatures = () => {
   const features = [
     {
-      icon: Brain,
-      title: "AI Document Intelligence",
-      description: "Automatically classify, extract, and validate data from contracts, invoices, and purchase orders with 99%+ accuracy"
-    },
-    {
-      icon: CheckCircle2,
-      title: "Smart Approval Workflows",
-      description: "Configurable multi-level approvals with threshold rules, compliance gates, and automatic escalation"
-    },
-    {
-      icon: Database,
-      title: "Master Data Management",
-      description: "Centralized supplier, contract, and product catalogs with real-time sync and deduplication"
-    },
-    {
-      icon: Eye,
-      title: "End-to-End Visibility",
-      description: "Track every document from submission to payment with real-time status and audit trails"
-    },
-    {
-      icon: Plug,
-      title: "Seamless Integrations",
-      description: "Connect with your ERP, accounting systems, and communication tools via API and channels"
+      icon: FileCheck,
+      title: "Contract & Invoice Matching",
+      description: "Compare every line, detect errors in seconds."
     },
     {
       icon: Building2,
-      title: "Multi-Organization Support",
-      description: "Manage multiple entities, subsidiaries, or clients with isolated data and custom workflows"
+      title: "Cross-Site Spend Intelligence",
+      description: "See where and why your costs drift."
+    },
+    {
+      icon: AlertTriangle,
+      title: "AI-Driven Anomaly Detection",
+      description: "Find overbilling and inconsistencies proactively."
+    },
+    {
+      icon: Bell,
+      title: "Automated Alerts & Reports",
+      description: "Stay ahead of renewals, budgets, and audits."
+    },
+    {
+      icon: Plug,
+      title: "ERP Integration Ready",
+      description: "Sync with Sage, SAP, Odoo, or Excel in minutes."
+    },
+    {
+      icon: FileText,
+      title: "Audit-Ready Records",
+      description: "Every action logged for compliance and traceability."
     }
   ];
 
@@ -39,16 +39,16 @@ const KeyFeatures = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Powered by AI. Built for Your Team.
+            Key Capabilities
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Enterprise-grade features that enhance your team's capabilities
+            Everything you need to bring audit intelligence to procurement
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {features.map((feature, index) => (
-            <div 
+            <div
               key={index}
               className="bg-card rounded-xl p-8 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 group"
             >

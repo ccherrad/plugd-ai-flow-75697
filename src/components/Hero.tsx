@@ -11,11 +11,11 @@ const Hero = () => {
           </div>
           
           <h1 className="mb-6 text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-            We're Building the Future of<br />Procurement Automation
+            Procurement. Automated.<br />Audited. Intelligent.
           </h1>
 
           <p className="mb-10 text-lg text-muted-foreground md:text-xl max-w-2xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            Your AI procurement assistant that handles the heavy lifting from RFP to reconciliation—empowering your team to focus on strategic decisions while ensuring compliance and saving costs at every step.
+            An AI-first procurement audit and automation platform that gives finance and operations leaders total visibility and control — without manual effort.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: '0.3s' }}>

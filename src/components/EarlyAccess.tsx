@@ -13,28 +13,31 @@ const EarlyAccess = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/10 rounded-full text-sm font-medium text-accent mb-6">
                 <Users className="h-4 w-4" />
-                Join the Pilot Program
+                Join the Early Adopters
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Become an Early Adopter
+                Co-Build the Future of Procurement Intelligence
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                We're looking for forward-thinking procurement teams who want to test stckd.ai in their workflows. Get early access, share feedback, and help us build the future of procurement automation.
+                We're inviting early partners — innovative hotel groups, restaurant chains, and clinics — to co-build the future of procurement intelligence.
               </p>
               <div className="space-y-4 text-sm text-muted-foreground">
                 <div className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 rounded-full bg-cta mt-2" />
-                  <p><strong className="text-foreground">Free during beta</strong> — no credit card required</p>
+                  <p><strong className="text-foreground">Priority onboarding</strong> and product influence</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 rounded-full bg-cta mt-2" />
-                  <p><strong className="text-foreground">Direct line to founders</strong> — your input shapes the product</p>
+                  <p><strong className="text-foreground">Direct access</strong> to our founding team</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 rounded-full bg-cta mt-2" />
-                  <p><strong className="text-foreground">Exclusive perks</strong> — locked-in pricing when we launch</p>
+                  <p><strong className="text-foreground">Lifetime discounts</strong> and investor opportunities</p>
                 </div>
               </div>
+              <p className="text-base text-foreground mt-6 font-medium">
+                Be among the first to shape the platform redefining how organizations manage suppliers, contracts, and spend.
+              </p>
             </div>
 
             {/* Right Column - Form */}

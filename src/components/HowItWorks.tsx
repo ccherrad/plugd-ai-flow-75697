@@ -1,24 +1,31 @@
-import { Upload, Brain, CheckCircle2 } from "lucide-react";
+import { Upload, Brain, AlertCircle, BarChart3, Zap } from "lucide-react";
 
 const HowItWorks = () => {
   const steps = [
     {
       icon: Upload,
-      title: "Upload",
-      description: "Receive documents via email, upload, or API integration",
-      visual: "Documents flying into the system"
+      title: "Upload or Connect",
+      description: "Upload or connect your contracts, invoices, and purchase data."
     },
     {
       icon: Brain,
-      title: "AI Processing",
-      description: "Our AI handles the heavy lifting—classifying documents, extracting key data, and validating against catalogs and POs—while you stay in control",
-      visual: "Brain/AI icon with data fields being populated"
+      title: "AI Extraction & Matching",
+      description: "AI automatically extracts and matches every line item to the right contract or PO."
     },
     {
-      icon: CheckCircle2,
-      title: "Review & Approve",
-      description: "Smart routing ensures the right team members review items that need attention, while routine matches flow through based on your approval rules",
-      visual: "Checkmarks and payment confirmation"
+      icon: AlertCircle,
+      title: "Instant Anomaly Detection",
+      description: "Anomalies are flagged instantly — price variances, duplicates, missing clauses, or tax errors."
+    },
+    {
+      icon: BarChart3,
+      title: "Visual Intelligence",
+      description: "Visual dashboards reveal trends, outliers, and opportunities to save."
+    },
+    {
+      icon: Zap,
+      title: "Quick Setup",
+      description: "All within a few clicks — no setup, no complex ERP configuration."
     }
   ];
 
@@ -26,20 +33,18 @@ const HowItWorks = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
+          <div className="inline-block mb-6 px-4 py-2 bg-primary/10 rounded-full text-sm font-medium text-primary">
+            Our Solution
+          </div>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            From Invoice Upload to Payment in Minutes, Not Days
+            Here's How It Works
           </h2>
         </div>
 
         <div className="max-w-5xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {steps.map((step, index) => (
               <div key={index} className="relative text-center group">
-                {/* Connecting line */}
-                {index < steps.length - 1 && (
-                  <div className="hidden md:block absolute top-20 left-[60%] w-[80%] h-0.5 bg-border" />
-                )}
-                
                 <div className="relative z-10 mb-6 inline-flex">
                   <div className="p-6 bg-gradient-to-br from-primary to-primary/80 rounded-2xl shadow-xl group-hover:scale-110 transition-transform">
                     <step.icon className="h-12 w-12 text-primary-foreground" />
@@ -48,9 +53,9 @@ const HowItWorks = () => {
                     {index + 1}
                   </div>
                 </div>
-                
-                <h3 className="text-2xl font-bold mb-4 text-foreground">{step.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{step.description}</p>
+
+                <h3 className="text-xl font-bold mb-3 text-foreground">{step.title}</h3>
+                <p className="text-muted-foreground leading-relaxed text-sm">{step.description}</p>
               </div>
             ))}
           </div>
