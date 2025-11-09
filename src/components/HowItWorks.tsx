@@ -11,13 +11,13 @@ const HowItWorks = () => {
     {
       icon: Brain,
       title: "AI Processing",
-      description: "Our AI automatically classifies documents, extracts key data, and validates against catalogs and POs",
+      description: "Our AI handles the heavy lifting—classifying documents, extracting key data, and validating against catalogs and POs—while you stay in control",
       visual: "Brain/AI icon with data fields being populated"
     },
     {
       icon: CheckCircle2,
-      title: "Approve & Pay",
-      description: "Smart routing ensures the right approvers review flagged items. Everything else auto-approves based on your rules",
+      title: "Review & Approve",
+      description: "Smart routing ensures the right team members review items that need attention, while routine matches flow through based on your approval rules",
       visual: "Checkmarks and payment confirmation"
     }
   ];
