@@ -1,0 +1,6 @@
+<!-- PLACEHOLDER: Replace this file with your actual favicon SVG -->
+<!-- Keep the filename as favicon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="6" fill="#1e3a5f"/>
+  <text x="16" y="22" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">P</text>
+</svg>

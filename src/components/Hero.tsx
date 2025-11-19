@@ -1,11 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import logo from "@/assets/logo.svg";
 
 const Hero = () => {
   return (
     <section className="relative overflow-hidden bg-background">
       <div className="container relative mx-auto px-4 py-16 md:py-24">
         <div className="mx-auto max-w-4xl text-center">
+          <div className="flex justify-center mb-8 animate-fade-in-up">
+            <img src={logo} alt="PLUGD.AI" className="h-12 md:h-16" />
+          </div>
+
           <div className="inline-block mb-6 px-4 py-2 bg-muted rounded-full text-sm font-medium text-muted-foreground animate-fade-in-up">
             Currently in MVP • Open for Early Adopters
           </div>
