@@ -16,4 +16,19 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    // Ensure content hashing for cache-busting
+    rollupOptions: {
+      output: {
+        // Add content hash to all asset filenames
+        entryFileNames: 'assets/[name]-[hash].js',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]',
+      },
+    },
+    // Generate source maps for debugging
+    sourcemap: false,
+    // Ensure unique build each time
+    manifest: true,
+  },
 }));
