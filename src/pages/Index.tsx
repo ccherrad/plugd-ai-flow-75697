@@ -4,7 +4,6 @@ import Vision from "@/components/Vision";
 import Workflows from "@/components/Workflows";
 import SolutionOverview from "@/components/SolutionOverview";
 import HowItWorks from "@/components/HowItWorks";
-import ProductPreview from "@/components/ProductPreview";
 import Results from "@/components/Results";
 import Testimonials from "@/components/Testimonials";
 import Roadmap from "@/components/Roadmap";
@@ -22,7 +21,6 @@ const Index = () => {
       <Workflows />
       <SolutionOverview />
       <HowItWorks />
-      <ProductPreview />
       <Results />
       <Testimonials />
       <Roadmap />
