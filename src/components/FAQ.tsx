@@ -68,9 +68,9 @@ const FAQ = () => {
       value: "item-9",
     },
     {
-      question: "What's the catalog and how does it help?",
+      question: "How does the platform enable insights?",
       answer:
-        "After documents are approved, they feed a unified catalog of products, purchases, vendors, and transactions. This catalog becomes your single source of truth for reconciliation (matching invoices to POs), monitoring spending patterns, detecting duplicate purchases, and gaining visibility into your financial operations.",
+        "After documents are processed and approved, they're organized into structured repositories tailored to each workflow. For Procurement, this means catalogs for reconciliation and spend monitoring. For KYC/AML, it's compliance records and audit trails. For Mortgage, it's application tracking and verification status. Each workflow gets the intelligence it needs.",
       value: "item-10",
     },
   ];

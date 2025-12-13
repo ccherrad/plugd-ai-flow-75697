@@ -1,4 +1,4 @@
-import { Upload, Tags, FileSearch, CheckCircle, Database, LineChart } from "lucide-react";
+import { Upload, Tags, FileSearch, CheckCircle, FolderTree, Sparkles } from "lucide-react";
 
 const HowItWorks = () => {
   const steps = [
@@ -10,27 +10,27 @@ const HowItWorks = () => {
     {
       icon: Tags,
       title: "2. Classify & Route",
-      description: "AI automatically classifies each document type (invoice, PO, contract, receipt) and routes to the right workflow."
+      description: "AI automatically identifies document types and routes them to the appropriate workflow and approval chain."
     },
     {
       icon: FileSearch,
       title: "3. Extract Information",
-      description: "Intelligent extraction pulls all key data — vendor details, amounts, line items, dates — with high accuracy."
+      description: "Intelligent extraction pulls all relevant data fields with high accuracy, understanding context and document structure."
     },
     {
       icon: CheckCircle,
       title: "4. Approval Workflows",
-      description: "Different document types flow through configured approval chains before being finalized."
+      description: "Documents flow through configured approval chains with notifications, ensuring compliance and proper authorization."
     },
     {
-      icon: Database,
-      title: "5. Build Your Catalog",
-      description: "Approved documents feed a unified catalog of products, purchases, vendors, and transactions."
+      icon: FolderTree,
+      title: "5. Organize & Store",
+      description: "Approved documents are organized into structured repositories, ready for retrieval, audit, or downstream use."
     },
     {
-      icon: LineChart,
-      title: "6. Reconcile & Monitor",
-      description: "Use the catalog to reconcile invoices, monitor spending, detect anomalies, and gain financial visibility."
+      icon: Sparkles,
+      title: "6. Enable Insights",
+      description: "Use the organized data for reconciliation, compliance reporting, trend analysis, and operational intelligence."
     }
   ];
 
