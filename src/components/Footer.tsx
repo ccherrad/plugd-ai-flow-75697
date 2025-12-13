@@ -21,11 +21,11 @@ const Footer = () => {
           {/* Product Links */}
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Product</h3>
-            <a href="#features" className="opacity-60 hover:opacity-100 text-sm">
-              Features
-            </a>
             <a href="#how-it-works" className="opacity-60 hover:opacity-100 text-sm">
               How It Works
+            </a>
+            <a href="#workflows" className="opacity-60 hover:opacity-100 text-sm">
+              Workflows
             </a>
             <a href="#roadmap" className="opacity-60 hover:opacity-100 text-sm">
               Roadmap
@@ -57,9 +57,6 @@ const Footer = () => {
           {/* Resources Links */}
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Resources</h3>
-            <a href="#testimonials" className="opacity-60 hover:opacity-100 text-sm">
-              Testimonials
-            </a>
             <a
               href="https://dev.plugd.space/"
               target="_blank"
