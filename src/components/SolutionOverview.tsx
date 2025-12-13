@@ -1,4 +1,4 @@
-import { TrendingUp, BarChart3, Zap, Target } from "lucide-react";
+import { TrendingUp, BarChart3, Zap, Target, Rocket, Shield } from "lucide-react";
 
 const SolutionOverview = () => {
   const whyNow = [
@@ -51,39 +51,49 @@ const SolutionOverview = () => {
         </div>
 
         {/* Market Opportunity */}
-        <div className="max-w-3xl mx-auto text-center bg-primary/5 border border-primary/10 rounded-2xl p-8 md:p-12 mb-16">
-          <p className="text-xl md:text-2xl font-bold text-foreground mb-4">
-            Every finance team needs a central hub for document intelligence.
-          </p>
-          <p className="text-base text-muted-foreground">
-            From procurement to compliance to operations — the same AI-powered automation applies across all workflows, creating a massive addressable market.
-          </p>
+        <div className="max-w-4xl mx-auto mb-16">
+          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg hover:shadow-xl transition-shadow text-center">
+            <div className="mb-6 inline-flex">
+              <div className="p-5 bg-primary/10 rounded-xl">
+                <Rocket className="h-12 w-12 text-primary" />
+              </div>
+            </div>
+            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+              The Market Opportunity
+            </h3>
+            <p className="text-xl md:text-2xl font-bold text-foreground mb-4">
+              Every finance team needs a central hub for document intelligence.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+              From procurement to compliance to operations — the same AI-powered automation applies across all workflows, creating a massive addressable market.
+            </p>
+          </div>
         </div>
 
         {/* Competitive Positioning */}
         <div className="max-w-4xl mx-auto">
-          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg">
-            <div className="flex items-start gap-6">
-              <div className="flex-shrink-0 p-4 bg-primary/10 rounded-xl">
-                <Target className="h-10 w-10 text-primary" />
+          <div className="bg-card rounded-xl p-8 md:p-12 shadow-lg hover:shadow-xl transition-shadow text-center">
+            <div className="mb-6 inline-flex">
+              <div className="p-5 bg-primary/10 rounded-xl">
+                <Shield className="h-12 w-12 text-primary" />
               </div>
-              <div>
-                <h3 className="text-2xl font-bold text-foreground mb-6">
-                  Our Competitive Edge
-                </h3>
-                <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                  While competitors focus on data extraction, <strong className="text-foreground">we automate the entire document lifecycle</strong> — creating a defensible moat through comprehensive workflow integration.
-                </p>
-                <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                  Our AI doesn't just extract — it classifies, contextualizes, routes for approval, builds institutional knowledge, and enables real-time reconciliation and monitoring. This end-to-end approach creates switching costs and positions us as the platform of record.
-                </p>
-                <p className="text-xl font-bold text-foreground mb-4">
-                  We're building the financial document OS that enterprises will depend on.
-                </p>
-                <p className="text-base text-muted-foreground italic">
-                  Multi-workflow platform play with network effects and data advantages that compound over time.
-                </p>
-              </div>
+            </div>
+            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-8">
+              Our Competitive Edge
+            </h3>
+            <div className="max-w-3xl mx-auto space-y-6">
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                While competitors focus on data extraction, <strong className="text-foreground">we automate the entire document lifecycle</strong> — creating a defensible moat through comprehensive workflow integration.
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Our AI doesn't just extract — it classifies, contextualizes, routes for approval, builds institutional knowledge, and enables real-time reconciliation and monitoring. This end-to-end approach creates switching costs and positions us as the platform of record.
+              </p>
+              <p className="text-xl md:text-2xl font-bold text-foreground mt-8 mb-4">
+                We're building the financial document OS that enterprises will depend on.
+              </p>
+              <p className="text-base text-muted-foreground italic">
+                Multi-workflow platform play with network effects and data advantages that compound over time.
+              </p>
             </div>
           </div>
         </div>
