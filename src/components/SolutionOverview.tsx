@@ -48,10 +48,10 @@ const SolutionOverview = () => {
 
         <div className="max-w-3xl mx-auto text-center bg-primary/5 border border-primary/10 rounded-2xl p-8 md:p-12 mb-16">
           <p className="text-xl md:text-2xl font-bold text-foreground mb-4">
-            The opportunity is massive — and we're building the engine that powers it.
+            The opportunity is massive — finance teams need a central hub for their documents.
           </p>
           <p className="text-base text-muted-foreground mt-4">
-            Starting with procurement because it showcases the perfect storm of regulatory pressure, AI readiness, and clear ROI. But the platform we're building works for any workflow.
+            We're starting with procurement documents (invoices, POs, contracts) because they're high-volume, error-prone, and ripe for automation. But the same intelligence applies to all financial documents.
           </p>
         </div>
 
@@ -70,16 +70,16 @@ const SolutionOverview = () => {
               </div>
               <div>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                  Traditional tools automate data capture — <strong className="text-foreground">we automate understanding</strong>.
+                  Most tools just extract data — <strong className="text-foreground">we assist and automate the entire document lifecycle</strong>.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                  Our platform doesn't just record transactions — it explains them, compares patterns across your organization, flags anomalies in real time, and learns from your data to prevent future errors.
+                  From ingestion to insights: our AI classifies documents, extracts information with context, manages approvals, builds your catalog, and enables reconciliation and monitoring — all while reducing human errors and manual burden.
                 </p>
                 <p className="text-xl font-bold text-foreground">
-                  In short: we bring audit intelligence to business workflows.
+                  In short: we're the financial documents hub your finance team needs.
                 </p>
                 <p className="text-base text-muted-foreground mt-4 italic">
-                  Starting with procurement workflows, expanding based on your needs.
+                  Starting with procurement documents, expanding to all financial document types.
                 </p>
               </div>
             </div>

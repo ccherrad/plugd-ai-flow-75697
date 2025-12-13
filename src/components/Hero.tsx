@@ -22,17 +22,15 @@ const Hero = () => {
 
           <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
             <h1>
-              Business Workflows.{" "}
+              Your Financial Documents.{" "}
               <span className="text-transparent bg-gradient-to-r from-primary to-accent bg-clip-text">
-                Automated.
+                Intelligently Managed.
               </span>
-              <br />
-              Audited. Intelligent.
             </h1>
           </div>
 
           <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-            An AI-first workflow automation and audit platform that adapts to your business needs. Starting with procurement, expanding with you.
+            A financial document intelligence hub that assists and automates to reduce human errors and manual burden. Starting with procurement documents.
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
@@ -78,9 +76,9 @@ const Hero = () => {
                 <div className="inline-flex p-3 bg-primary/10 rounded-full mb-4">
                   <img src={logo} alt="PLUGD.AI" className="h-16 w-16" />
                 </div>
-                <h3 className="text-2xl font-bold text-foreground">Your AI Workflow Assistant</h3>
+                <h3 className="text-2xl font-bold text-foreground">Financial Documents Hub</h3>
                 <p className="text-muted-foreground max-w-md">
-                  Clean, intuitive interface for managing business workflows with AI-powered automation and audit intelligence.
+                  Centralized platform for ingesting, classifying, extracting, and managing all your financial documents with AI assistance.
                 </p>
                 <Button className="bg-cta hover:bg-cta/90 text-cta-foreground" asChild>
                   <a href="https://dev.plugd.space/" target="_blank" rel="noopener noreferrer">

@@ -4,28 +4,28 @@ const Vision = () => {
   const painPoints = [
     {
       icon: Scan,
-      title: "Scattered Processes",
-      description: "Scattered processes across sites and suppliers with no unified visibility."
+      title: "Document Chaos",
+      description: "Documents scattered across emails, folders, and systems with no central hub."
     },
     {
       icon: FileWarning,
-      title: "Invoice Overload",
-      description: "Manual validation in Excel or ERP, invoice by invoice."
+      title: "Manual Data Entry",
+      description: "Hours spent manually extracting data from PDFs and entering it into systems."
     },
     {
       icon: DollarSign,
-      title: "Hidden Overcharges",
-      description: "Different sites pay different prices for the same product."
+      title: "Human Errors",
+      description: "Typos, duplicates, and missed details that lead to costly mistakes."
     },
     {
       icon: Clock,
-      title: "Repetitive Work",
-      description: "1 hour or more wasted per invoice on checks and approvals."
+      title: "Approval Bottlenecks",
+      description: "Documents stuck in approval limbo, delaying payments and operations."
     },
     {
       icon: AlertTriangle,
-      title: "Audit Anxiety",
-      description: "Inconsistent data, missed anomalies, and compliance risk."
+      title: "No Visibility",
+      description: "Can't easily reconcile, monitor spending, or catch anomalies in real-time."
     }
   ];
 
@@ -34,16 +34,16 @@ const Vision = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            The Problem: Manual Workflows at Scale
+            The Challenge Finance Teams Face
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Teams across organizations spend countless hours on repetitive tasks, data validation, and error correction. We're starting with procurement — a workflow that perfectly illustrates these challenges.
+            Finance teams drown in documents — invoices, contracts, purchase orders, receipts. Manual processing leads to errors, delays, and compliance risks. We're starting with procurement documents, where this challenge is most acute.
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto mb-12">
           <p className="text-xl font-semibold text-foreground mb-8 text-center">
-            Here's what that looks like in procurement (our first workflow):
+            Here's what manual document processing looks like today:
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -66,10 +66,10 @@ const Vision = () => {
 
         <div className="max-w-3xl mx-auto text-center bg-destructive/5 border border-destructive/10 rounded-2xl p-8 md:p-12">
           <p className="text-xl md:text-2xl font-bold text-foreground mb-4">
-            The result? Lost time, lost trust, and lost margins — all because business workflows remain reactive instead of intelligent.
+            The result? Finance teams spend 60-70% of their time on manual document processing instead of strategic analysis.
           </p>
           <p className="text-base text-muted-foreground mt-4">
-            These patterns repeat across every complex workflow. We're building the platform to fix them, one workflow at a time.
+            We built PLUGD.AI to fix this — a central hub where documents flow in, get intelligently processed, and feed the insights you need.
           </p>
         </div>
       </div>
