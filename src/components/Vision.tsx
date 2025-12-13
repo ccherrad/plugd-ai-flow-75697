@@ -34,16 +34,16 @@ const Vision = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            The Problem Procurement Teams Face
+            The Problem: Manual Workflows at Scale
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Procurement and finance teams across multi-site organizations spend countless hours chasing invoices, comparing prices, and fixing supplier errors.
+            Teams across organizations spend countless hours on repetitive tasks, data validation, and error correction. We're starting with procurement — a workflow that perfectly illustrates these challenges.
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto mb-12">
           <p className="text-xl font-semibold text-foreground mb-8 text-center">
-            Here's what that looks like today:
+            Here's what that looks like in procurement (our first workflow):
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -66,7 +66,10 @@ const Vision = () => {
 
         <div className="max-w-3xl mx-auto text-center bg-destructive/5 border border-destructive/10 rounded-2xl p-8 md:p-12">
           <p className="text-xl md:text-2xl font-bold text-foreground mb-4">
-            The result? Lost time, lost trust, and lost margins — all because procurement remains reactive instead of intelligent.
+            The result? Lost time, lost trust, and lost margins — all because business workflows remain reactive instead of intelligent.
+          </p>
+          <p className="text-base text-muted-foreground mt-4">
+            These patterns repeat across every complex workflow. We're building the platform to fix them, one workflow at a time.
           </p>
         </div>
       </div>

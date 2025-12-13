@@ -50,6 +50,9 @@ const SolutionOverview = () => {
           <p className="text-xl md:text-2xl font-bold text-foreground mb-4">
             The opportunity is massive — and we're building the engine that powers it.
           </p>
+          <p className="text-base text-muted-foreground mt-4">
+            Starting with procurement because it showcases the perfect storm of regulatory pressure, AI readiness, and clear ROI. But the platform we're building works for any workflow.
+          </p>
         </div>
 
         {/* Our Edge Section */}
@@ -67,13 +70,16 @@ const SolutionOverview = () => {
               </div>
               <div>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                  Current tools (Libeo, Yooz, Coupa…) automate data capture — <strong className="text-foreground">we automate understanding</strong>.
+                  Traditional tools automate data capture — <strong className="text-foreground">we automate understanding</strong>.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                  Our platform doesn't just record invoices — it explains them, comparing prices across sites, flagging anomalies in real time, and learning from your data to prevent future errors.
+                  Our platform doesn't just record transactions — it explains them, compares patterns across your organization, flags anomalies in real time, and learns from your data to prevent future errors.
                 </p>
                 <p className="text-xl font-bold text-foreground">
-                  In short: we bring audit intelligence to procurement.
+                  In short: we bring audit intelligence to business workflows.
+                </p>
+                <p className="text-base text-muted-foreground mt-4 italic">
+                  Starting with procurement workflows, expanding based on your needs.
                 </p>
               </div>
             </div>

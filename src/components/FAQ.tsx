@@ -16,7 +16,7 @@ const FAQ = () => {
     {
       question: "What is PLUGD.AI?",
       answer:
-        "PLUGD.AI is an AI-first procurement audit and automation platform that helps finance and operations leaders gain total visibility and control over their procurement process. We automate everything from invoice processing and 3-way matching to anomaly detection and compliance tracking.",
+        "PLUGD.AI is an AI-first workflow automation and audit platform that brings intelligence to complex business processes. We're starting with procurement — automating everything from invoice processing and 3-way matching to anomaly detection and compliance tracking — but our platform is designed to expand to any workflow where automation and audit intelligence add value.",
       value: "item-1",
     },
     {
@@ -44,9 +44,9 @@ const FAQ = () => {
       value: "item-5",
     },
     {
-      question: "What makes PLUGD.AI different from tools like Libeo, Yooz, or Coupa?",
+      question: "What makes PLUGD.AI different from traditional workflow tools?",
       answer:
-        "While traditional tools focus on automating data capture, PLUGD.AI automates understanding. We don't just record invoices—we explain them, compare prices across sites, flag anomalies in real-time, and learn from your data to prevent future errors. We bring audit intelligence to procurement.",
+        "While traditional tools focus on automating data capture, PLUGD.AI automates understanding. We don't just record transactions—we explain them, compare patterns across your organization, flag anomalies in real-time, and learn from your data to prevent future errors. We bring audit intelligence to business workflows. Plus, our platform is designed to grow with you across multiple workflows, not just one vertical.",
       value: "item-6",
     },
     {
@@ -58,8 +58,14 @@ const FAQ = () => {
     {
       question: "What support do early adopters get?",
       answer:
-        "Early adopters receive priority support, direct access to our team, influence over our roadmap, and preferential pricing. You'll help shape the product and get access to new features before general availability. We view our early adopters as partners in building the future of procurement automation.",
+        "Early adopters receive priority support, direct access to our team, influence over our roadmap, and preferential pricing. You'll help shape the product and get access to new features before general availability. Most importantly, you'll influence which workflows we tackle next — we build based on real user needs, not assumptions.",
       value: "item-8",
+    },
+    {
+      question: "Will you expand beyond procurement?",
+      answer:
+        "Absolutely. Procurement is our first workflow because it perfectly demonstrates the value of AI-powered audit intelligence. But the same principles apply to expense management, contract lifecycle, compliance workflows, and more. We'll expand based on client needs and feedback — you help us decide what comes next.",
+      value: "item-9",
     },
   ];
 
