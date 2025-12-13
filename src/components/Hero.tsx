@@ -30,7 +30,7 @@ const Hero = () => {
           </div>
 
           <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-            A financial document intelligence hub that assists and automates to reduce human errors and manual burden. Starting with procurement documents.
+            A financial document intelligence hub that assists and automates to reduce human errors and manual burden across critical finance workflows.
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">

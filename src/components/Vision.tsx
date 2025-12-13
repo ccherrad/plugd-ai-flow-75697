@@ -37,7 +37,7 @@ const Vision = () => {
             The Challenge Finance Teams Face
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Finance teams drown in documents — invoices, contracts, purchase orders, receipts. Manual processing leads to errors, delays, and compliance risks. We're starting with procurement documents, where this challenge is most acute.
+            Finance teams drown in documents across procurement, compliance, and operations. Manual processing leads to errors, delays, and regulatory risks. Every workflow suffers from the same fundamental problem.
           </p>
         </div>
 

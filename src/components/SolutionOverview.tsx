@@ -51,7 +51,7 @@ const SolutionOverview = () => {
             The opportunity is massive — finance teams need a central hub for their documents.
           </p>
           <p className="text-base text-muted-foreground mt-4">
-            We're starting with procurement documents (invoices, POs, contracts) because they're high-volume, error-prone, and ripe for automation. But the same intelligence applies to all financial documents.
+            Whether it's procurement, compliance, or operations — the same document intelligence applies across workflows.
           </p>
         </div>
 
@@ -79,7 +79,7 @@ const SolutionOverview = () => {
                   In short: we're the financial documents hub your finance team needs.
                 </p>
                 <p className="text-base text-muted-foreground mt-4 italic">
-                  Starting with procurement documents, expanding to all financial document types.
+                  Across procurement, compliance, and operational workflows.
                 </p>
               </div>
             </div>

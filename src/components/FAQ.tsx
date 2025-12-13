@@ -16,7 +16,7 @@ const FAQ = () => {
     {
       question: "What is PLUGD.AI?",
       answer:
-        "PLUGD.AI is a financial documents intelligence hub that assists and automates document processing for finance teams. We centralize all your financial documents (invoices, POs, contracts, receipts), use AI to classify and extract information, manage approval workflows, and build a unified catalog that enables reconciliation and spending monitoring. We're starting with procurement documents.",
+        "PLUGD.AI is a financial documents intelligence hub that assists and automates document processing for finance teams. We centralize financial documents across different workflows (procurement, compliance, operations), use AI to classify and extract information, manage approval workflows, and build unified catalogs that enable monitoring and reconciliation. Currently automating Procurement, KYC/AML, and Mortgage workflows.",
       value: "item-1",
     },
     {
@@ -62,9 +62,9 @@ const FAQ = () => {
       value: "item-8",
     },
     {
-      question: "Will you expand beyond procurement documents?",
+      question: "What workflows do you support?",
       answer:
-        "Absolutely. Procurement documents (invoices, POs, contracts) are our starting point because they're high-volume and error-prone. But our document intelligence platform works for any financial document type — expense reports, receipts, payment confirmations, bank statements, and more. We'll expand based on client needs.",
+        "We currently automate three workflows: (1) Procurement - invoices, POs, contracts; (2) KYC/AML - identity verification, compliance documents; (3) Mortgage - applications, income verification, property documents. Each workflow gets the same document intelligence: ingest, classify, extract, approve, catalog, monitor. We add new workflows based on client demand.",
       value: "item-9",
     },
     {
