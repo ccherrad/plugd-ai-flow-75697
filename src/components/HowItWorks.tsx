@@ -1,4 +1,4 @@
-import { Upload, Tags, FileSearch, CheckCircle, FolderTree, Sparkles, Bot, Users, MessageSquare, ThumbsUp, ThumbsDown, Edit3, Database, BarChart3 } from "lucide-react";
+import { Upload, Tags, FileSearch, CheckCircle, FolderTree, Sparkles, Bot, Users, MessageSquare, ThumbsUp, ThumbsDown, Edit3, Database, BarChart3, XCircle, Scan, Clock, AlertTriangle, FileWarning, DollarSign } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
@@ -15,7 +15,12 @@ const HowItWorks = () => {
         "Cloud storage sync (Google Drive, Dropbox, OneDrive)",
         "Scheduled batch imports"
       ],
-      badge: "Multi-Channel"
+      badge: "Multi-Channel",
+      solves: {
+        icon: Scan,
+        problem: "Document Chaos",
+        description: "Documents scattered across emails, folders, and systems with no central hub."
+      }
     },
     {
       icon: Tags,
@@ -29,7 +34,12 @@ const HowItWorks = () => {
         "Custom document types and routing rules"
       ],
       badge: "AI Agents",
-      highlight: true
+      highlight: true,
+      solves: {
+        icon: DollarSign,
+        problem: "Human Errors",
+        description: "Typos, duplicates, and missed details that lead to costly mistakes."
+      }
     },
     {
       icon: FileSearch,
@@ -44,7 +54,12 @@ const HowItWorks = () => {
         "Validation against business rules"
       ],
       badge: "AI Agents",
-      highlight: true
+      highlight: true,
+      solves: {
+        icon: FileWarning,
+        problem: "Manual Data Entry",
+        description: "Hours spent manually extracting data from PDFs and entering it into systems."
+      }
     },
     {
       icon: Users,
@@ -62,7 +77,12 @@ const HowItWorks = () => {
       ],
       badge: "Collaboration Hub",
       highlight: true,
-      emphasis: "Human Oversight + AI Assistance"
+      emphasis: "Human Oversight + AI Assistance",
+      solves: {
+        icon: Clock,
+        problem: "Collaboration Nightmare & Approval Bottlenecks",
+        description: "Teams rely on email threads and shared drives, with documents stuck in approval limbo."
+      }
     },
     {
       icon: FolderTree,
@@ -92,7 +112,12 @@ const HowItWorks = () => {
         "Export to BI tools (Tableau, Power BI)",
         "Anomaly detection and alerts"
       ],
-      badge: "Intelligence"
+      badge: "Intelligence",
+      solves: {
+        icon: AlertTriangle,
+        problem: "No Visibility",
+        description: "Can't easily reconcile, monitor spending, or catch anomalies in real-time."
+      }
     }
   ];
 
@@ -104,10 +129,10 @@ const HowItWorks = () => {
             The Document Intelligence Pipeline
           </div>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            How PLUGD.AI Works
+            From Chaos to Control: How PLUGD.AI Works
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            From document ingestion to actionable insights — here's our complete feature-rich workflow that combines AI automation with human oversight
+            Every step in our AI-powered workflow tackles a specific challenge finance teams face — transforming manual document processing into intelligent automation with human oversight
           </p>
         </div>
 
@@ -147,6 +172,24 @@ const HowItWorks = () => {
                         {step.badge}
                       </Badge>
                     </div>
+
+                    {/* Problem it solves */}
+                    {step.solves && (
+                      <div className="flex items-start gap-3 p-4 bg-destructive/5 border border-destructive/20 rounded-lg">
+                        <div className="flex-shrink-0">
+                          <div className="p-2 bg-destructive/10 rounded-lg">
+                            <step.solves.icon className="h-5 w-5 text-destructive" />
+                          </div>
+                        </div>
+                        <div>
+                          <div className="flex items-center gap-2 mb-1">
+                            <XCircle className="h-4 w-4 text-destructive" />
+                            <span className="text-sm font-bold text-destructive">Solves: {step.solves.problem}</span>
+                          </div>
+                          <p className="text-sm text-muted-foreground">{step.solves.description}</p>
+                        </div>
+                      </div>
+                    )}
 
                     {step.emphasis && (
                       <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/20 border-l-4 border-accent rounded-r">
