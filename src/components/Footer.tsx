@@ -14,7 +14,7 @@ const Footer = () => {
               <h3 className="text-2xl">PLUGD.AI</h3>
             </a>
             <p className="mt-4 text-sm text-muted-foreground max-w-sm">
-              AI-first procurement audit and automation platform for modern businesses.
+              AI-first workflow automation and audit platform. Starting with procurement, expanding with you.
             </p>
           </div>
 
