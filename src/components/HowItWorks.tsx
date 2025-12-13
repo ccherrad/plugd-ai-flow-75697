@@ -1,31 +1,36 @@
-import { Upload, Brain, AlertCircle, BarChart3, Zap } from "lucide-react";
+import { Upload, Tags, FileSearch, CheckCircle, Database, LineChart } from "lucide-react";
 
 const HowItWorks = () => {
   const steps = [
     {
       icon: Upload,
-      title: "Upload or Connect",
-      description: "Upload or connect your contracts, invoices, and purchase data."
+      title: "1. Ingest Documents",
+      description: "Upload manually or configure channels to automatically consume documents from emails, ERPs, and other systems."
     },
     {
-      icon: Brain,
-      title: "AI Extraction & Matching",
-      description: "AI automatically extracts and matches every line item to the right contract or PO."
+      icon: Tags,
+      title: "2. Classify & Route",
+      description: "AI automatically classifies each document type (invoice, PO, contract, receipt) and routes to the right workflow."
     },
     {
-      icon: AlertCircle,
-      title: "Instant Anomaly Detection",
-      description: "Anomalies are flagged instantly — price variances, duplicates, missing clauses, or tax errors."
+      icon: FileSearch,
+      title: "3. Extract Information",
+      description: "Intelligent extraction pulls all key data — vendor details, amounts, line items, dates — with high accuracy."
     },
     {
-      icon: BarChart3,
-      title: "Visual Intelligence",
-      description: "Visual dashboards reveal trends, outliers, and opportunities to save."
+      icon: CheckCircle,
+      title: "4. Approval Workflows",
+      description: "Different document types flow through configured approval chains before being finalized."
     },
     {
-      icon: Zap,
-      title: "Quick Setup",
-      description: "All within a few clicks — no setup, no complex ERP configuration."
+      icon: Database,
+      title: "5. Build Your Catalog",
+      description: "Approved documents feed a unified catalog of products, purchases, vendors, and transactions."
+    },
+    {
+      icon: LineChart,
+      title: "6. Reconcile & Monitor",
+      description: "Use the catalog to reconcile invoices, monitor spending, detect anomalies, and gain financial visibility."
     }
   ];
 
@@ -34,14 +39,17 @@ const HowItWorks = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <div className="inline-block mb-6 px-4 py-2 bg-primary/10 rounded-full text-sm font-medium text-primary">
-            Our Solution
+            The Document Intelligence Pipeline
           </div>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Here's How It Works
+            How PLUGD.AI Works
           </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            From document ingestion to actionable insights — here's the complete flow
+          </p>
         </div>
 
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {steps.map((step, index) => (
               <div key={index} className="relative text-center group">

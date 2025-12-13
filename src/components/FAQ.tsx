@@ -16,13 +16,13 @@ const FAQ = () => {
     {
       question: "What is PLUGD.AI?",
       answer:
-        "PLUGD.AI is an AI-first workflow automation and audit platform that brings intelligence to complex business processes. We're starting with procurement — automating everything from invoice processing and 3-way matching to anomaly detection and compliance tracking — but our platform is designed to expand to any workflow where automation and audit intelligence add value.",
+        "PLUGD.AI is a financial documents intelligence hub that assists and automates document processing for finance teams. We centralize financial documents across different workflows (procurement, compliance, operations), use AI to classify and extract information, manage approval workflows, and build unified catalogs that enable monitoring and reconciliation. Currently automating Procurement, KYC/AML, and Mortgage workflows.",
       value: "item-1",
     },
     {
-      question: "How does the AI-powered anomaly detection work?",
+      question: "How do documents get into the system?",
       answer:
-        "Our AI automatically analyzes every invoice and purchase order, comparing prices across vendors, flagging duplicates, detecting pricing variances, and identifying potential compliance issues. The system learns from your data to continuously improve accuracy and catch issues before they become costly problems.",
+        "You have two options: (1) Manual upload — drag and drop PDFs or images directly into PLUGD.AI, or (2) Automated channels — configure integrations to automatically consume documents from emails, ERPs, accounting systems, or cloud storage. Once in, our AI takes over the classification and extraction.",
       value: "item-2",
     },
     {
@@ -44,9 +44,9 @@ const FAQ = () => {
       value: "item-5",
     },
     {
-      question: "What makes PLUGD.AI different from traditional workflow tools?",
+      question: "What makes PLUGD.AI different from OCR/extraction tools?",
       answer:
-        "While traditional tools focus on automating data capture, PLUGD.AI automates understanding. We don't just record transactions—we explain them, compare patterns across your organization, flag anomalies in real-time, and learn from your data to prevent future errors. We bring audit intelligence to business workflows. Plus, our platform is designed to grow with you across multiple workflows, not just one vertical.",
+        "Most tools only extract data. PLUGD.AI manages the complete lifecycle: ingestion → classification → extraction → approval workflows → catalog building → reconciliation and monitoring. We don't just pull numbers from PDFs—we understand document types, route them through the right approvals, and build a unified catalog that reduces errors and gives you financial visibility.",
       value: "item-6",
     },
     {
@@ -62,10 +62,16 @@ const FAQ = () => {
       value: "item-8",
     },
     {
-      question: "Will you expand beyond procurement?",
+      question: "What workflows do you support?",
       answer:
-        "Absolutely. Procurement is our first workflow because it perfectly demonstrates the value of AI-powered audit intelligence. But the same principles apply to expense management, contract lifecycle, compliance workflows, and more. We'll expand based on client needs and feedback — you help us decide what comes next.",
+        "We currently automate three workflows: (1) Procurement - invoices, POs, contracts; (2) KYC/AML - identity verification, compliance documents; (3) Mortgage - applications, income verification, property documents. Each workflow gets the same document intelligence: ingest, classify, extract, approve, catalog, monitor. We add new workflows based on client demand.",
       value: "item-9",
+    },
+    {
+      question: "What's the catalog and how does it help?",
+      answer:
+        "After documents are approved, they feed a unified catalog of products, purchases, vendors, and transactions. This catalog becomes your single source of truth for reconciliation (matching invoices to POs), monitoring spending patterns, detecting duplicate purchases, and gaining visibility into your financial operations.",
+      value: "item-10",
     },
   ];
 
