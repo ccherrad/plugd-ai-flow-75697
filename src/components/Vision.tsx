@@ -1,4 +1,4 @@
-import { Scan, DollarSign, Clock, AlertTriangle, FileWarning } from "lucide-react";
+import { Scan, DollarSign, Clock, AlertTriangle, FileWarning, Users } from "lucide-react";
 
 const Vision = () => {
   const painPoints = [
@@ -6,6 +6,11 @@ const Vision = () => {
       icon: Scan,
       title: "Document Chaos",
       description: "Documents scattered across emails, folders, and systems with no central hub."
+    },
+    {
+      icon: Users,
+      title: "Collaboration Nightmare",
+      description: "Teams rely on email threads and shared drives, making real-time collaboration nearly impossible."
     },
     {
       icon: FileWarning,
