@@ -14,8 +14,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const routeList = [
-    { href: "#features", label: "Features" },
     { href: "#how-it-works", label: "How It Works" },
+    { href: "#workflows", label: "Workflows" },
     { href: "#team", label: "Team" },
     { href: "#roadmap", label: "Roadmap" },
     { href: "#faq", label: "FAQ" },
