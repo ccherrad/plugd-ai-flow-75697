@@ -21,7 +21,7 @@ interface TeamMember {
 const Team = () => {
   const teamList: TeamMember[] = [
     {
-      imageUrl: "https://api.dicebear.com/7.x/avataaars/svg?seed=CharefCherrad",
+      imageUrl: "https://api.dicebear.com/7.x/bottts/svg?seed=CharefCherrad",
       firstName: "Charef Eddine",
       lastName: "Cherrad",
       positions: ["Founder", "Software Engineer"],
@@ -37,7 +37,7 @@ const Team = () => {
       ],
     },
     {
-      imageUrl: "https://api.dicebear.com/7.x/avataaars/svg?seed=DjaballahDjedid",
+      imageUrl: "https://api.dicebear.com/7.x/bottts/svg?seed=DjaballahDjedid",
       firstName: "Djaballah",
       lastName: "Djedid",
       positions: ["Founder", "Software Engineer"],
@@ -49,7 +49,7 @@ const Team = () => {
       ],
     },
     {
-      imageUrl: "https://api.dicebear.com/7.x/avataaars/svg?seed=AminaDebab",
+      imageUrl: "https://api.dicebear.com/7.x/bottts/svg?seed=AminaDebab",
       firstName: "Amina",
       lastName: "Debab",
       positions: ["Founder", "Data Governance Expert"],
