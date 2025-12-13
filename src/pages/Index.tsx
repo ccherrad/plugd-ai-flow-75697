@@ -3,8 +3,7 @@ import Hero from "@/components/Hero";
 import Workflows from "@/components/Workflows";
 import SolutionOverview from "@/components/SolutionOverview";
 import HowItWorks from "@/components/HowItWorks";
-import Results from "@/components/Results";
-import Testimonials from "@/components/Testimonials";
+import JoinTransformation from "@/components/JoinTransformation";
 import Roadmap from "@/components/Roadmap";
 import Team from "@/components/Team";
 import FAQ from "@/components/FAQ";
@@ -19,8 +18,7 @@ const Index = () => {
       <HowItWorks />
       <Workflows />
       <SolutionOverview />
-      <Results />
-      <Testimonials />
+      <JoinTransformation />
       <Roadmap />
       <Team />
       <FAQ />
