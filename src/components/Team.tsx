@@ -19,35 +19,47 @@ interface TeamMember {
 }
 
 const Team = () => {
-  // TODO: Replace this with your actual team information
   const teamList: TeamMember[] = [
     {
-      imageUrl: "https://api.dicebear.com/7.x/avataaars/svg?seed=Felix",
-      firstName: "Charef",
+      imageUrl: "https://api.dicebear.com/7.x/avataaars/svg?seed=CharefCherrad",
+      firstName: "Charef Eddine",
       lastName: "Cherrad",
-      positions: ["Founder & CEO", "Automation Expert"],
+      positions: ["Founder", "Software Engineer"],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/your-profile", // TODO: Add your LinkedIn
+          url: "https://www.linkedin.com/in/ccherrad/",
         },
         {
           name: "Github",
-          url: "https://github.com/ccherrad", // TODO: Add your GitHub
+          url: "https://github.com/ccherrad",
         },
       ],
     },
-    // TODO: Add more team members here
-    // Example:
-    // {
-    //   imageUrl: "https://api.dicebear.com/7.x/avataaars/svg?seed=YourName",
-    //   firstName: "Your",
-    //   lastName: "Name",
-    //   positions: ["Your Title", "Your Expertise"],
-    //   socialNetworks: [
-    //     { name: "LinkedIn", url: "https://linkedin.com/in/yourprofile" },
-    //   ],
-    // },
+    {
+      imageUrl: "https://api.dicebear.com/7.x/avataaars/svg?seed=DjaballahDjedid",
+      firstName: "Djaballah",
+      lastName: "Djedid",
+      positions: ["Founder", "Software Engineer"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/djaballahdjedid/",
+        },
+      ],
+    },
+    {
+      imageUrl: "https://api.dicebear.com/7.x/avataaars/svg?seed=AminaDebab",
+      firstName: "Amina",
+      lastName: "Debab",
+      positions: ["Founder", "Data Governance Expert"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/adebab/",
+        },
+      ],
+    },
   ];
 
   const getSocialIcon = (name: string) => {
@@ -130,7 +142,7 @@ const Team = () => {
       <div className="mt-16 max-w-3xl mx-auto">
         <div className="bg-primary/5 border border-primary/10 rounded-2xl p-8 md:p-12">
           <p className="text-lg text-muted-foreground leading-relaxed mb-4 italic">
-            "Every feature we ship is something we'd want to use ourselves. We're building PLUGD.AI transparently—one feature at a time, with real feedback from real users."
+            "We all come from the IT field, and we've seen firsthand how quickly AI has transformed the way we work. In a very short time, it has made us more productive and significantly reduced errors. We want people in other fields to benefit from the same shift we're experiencing today. Our goal is to democratize AI—making it accessible, practical, and easy to use for smaller companies that don't have access to, or aren't clients of, big tech solutions."
           </p>
           <p className="text-sm font-medium text-foreground">— The PLUGD.AI Team</p>
         </div>
