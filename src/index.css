@@ -8,88 +8,104 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* Standard Background - Crisp White */
     --background: 0 0% 100%;
-    --foreground: 218 45% 13%;
+    /* Standard Text - Near Black/Dark Navy */
+    --foreground: 222.2 47.4% 11.2%;
 
     --card: 0 0% 100%;
-    --card-foreground: 218 45% 13%;
+    --card-foreground: 222.2 47.4% 11.2%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 218 45% 13%;
+    --popover-foreground: 222.2 47.4% 11.2%;
 
-    /* Navy Blue Primary - PLUGD.AI brand */
-    --primary: 218 45% 13%;
+    /* Primary Action & CTA - Medium Blue #2563eb */
+    --primary: 221 83% 53%;
     --primary-foreground: 0 0% 100%;
 
     /* Light Gray Accent */
     --secondary: 220 13% 96%;
-    --secondary-foreground: 218 45% 13%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 220 13% 91%;
     --muted-foreground: 218 20% 40%;
 
-    /* Success Green for metrics */
-    --accent: 142 71% 45%;
+    /* Innovation Accent - Blue-Indigo #4f46e5 */
+    --accent: 243 75% 59%;
     --accent-foreground: 0 0% 100%;
 
-    /* CTA Blue */
+    /* CTA Blue - Medium Blue #2563eb (same as primary) */
     --cta: 221 83% 53%;
     --cta-foreground: 0 0% 100%;
+
+    /* Corporate/Header - Deep Navy #1e3a8a */
+    --fin-navy: 224 64% 33%;
+    --fin-navy-foreground: 0 0% 100%;
+
+    /* Innovation Accent - Blue-Indigo #4f46e5 (alias for accent) */
+    --fin-indigo: 243 75% 59%;
+    --fin-indigo-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 218 45% 13%;
+    --ring: 221 83% 53%;
 
     --radius: 0.5rem;
 
-    /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(218, 45%, 13%), hsl(218, 45%, 20%));
+    /* Gradients - Updated to use new color palette */
+    --gradient-hero: linear-gradient(135deg, hsl(224, 64%, 33%), hsl(221, 83%, 53%));
     --gradient-card: linear-gradient(180deg, hsl(0, 0%, 100%), hsl(220, 13%, 98%));
-    
-    /* Shadows */
-    --shadow-sm: 0 1px 2px 0 hsl(218 45% 13% / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(218 45% 13% / 0.1);
-    --shadow-lg: 0 10px 15px -3px hsl(218 45% 13% / 0.1);
-    --shadow-xl: 0 20px 25px -5px hsl(218 45% 13% / 0.1);
+
+    /* Shadows - Updated to use new foreground color */
+    --shadow-sm: 0 1px 2px 0 hsl(222.2 47.4% 11.2% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(222.2 47.4% 11.2% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(222.2 47.4% 11.2% / 0.1);
+    --shadow-xl: 0 20px 25px -5px hsl(222.2 47.4% 11.2% / 0.1);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .dark {
-    --background: 218 45% 13%;
+    --background: 224 64% 33%;
     --foreground: 0 0% 100%;
 
-    --card: 218 45% 16%;
+    --card: 224 64% 36%;
     --card-foreground: 0 0% 100%;
 
-    --popover: 218 45% 16%;
+    --popover: 224 64% 36%;
     --popover-foreground: 0 0% 100%;
 
-    --primary: 0 0% 100%;
-    --primary-foreground: 218 45% 13%;
+    --primary: 221 83% 53%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 218 30% 20%;
+    --secondary: 224 50% 25%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 218 30% 25%;
+    --muted: 224 50% 30%;
     --muted-foreground: 220 13% 70%;
 
-    --accent: 142 71% 45%;
+    --accent: 243 75% 59%;
     --accent-foreground: 0 0% 100%;
 
     --cta: 221 83% 53%;
     --cta-foreground: 0 0% 100%;
 
+    --fin-navy: 224 64% 33%;
+    --fin-navy-foreground: 0 0% 100%;
+
+    --fin-indigo: 243 75% 59%;
+    --fin-indigo-foreground: 0 0% 100%;
+
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 218 30% 25%;
-    --input: 218 30% 25%;
-    --ring: 220 13% 70%;
+    --border: 224 50% 30%;
+    --input: 224 50% 30%;
+    --ring: 221 83% 53%;
   }
 }
 
