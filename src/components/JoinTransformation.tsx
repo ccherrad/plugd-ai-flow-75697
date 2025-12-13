@@ -95,7 +95,7 @@ const JoinTransformation = () => {
                   className="text-base px-8"
                   asChild
                 >
-                  <a href="#early-access">Apply for Early Access</a>
+                  <a href="mailto:hello@plugd.ai?subject=Early%20Access%20Request">Request Early Access</a>
                 </Button>
                 <Button
                   size="lg"
@@ -103,7 +103,7 @@ const JoinTransformation = () => {
                   className="text-base px-8 bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
                   asChild
                 >
-                  <a href="mailto:hello@plugd.ai">Contact Our Team</a>
+                  <a href="mailto:hello@plugd.ai?subject=Schedule%20a%20Demo">Schedule a Demo</a>
                 </Button>
               </div>
             </CardContent>

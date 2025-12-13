@@ -7,7 +7,6 @@ import JoinTransformation from "@/components/JoinTransformation";
 import Roadmap from "@/components/Roadmap";
 import Team from "@/components/Team";
 import FAQ from "@/components/FAQ";
-import EarlyAccess from "@/components/EarlyAccess";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -22,7 +21,6 @@ const Index = () => {
       <Roadmap />
       <Team />
       <FAQ />
-      <EarlyAccess />
       <Footer />
     </div>
   );
