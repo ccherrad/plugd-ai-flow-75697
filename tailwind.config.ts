@@ -43,6 +43,14 @@ export default {
           DEFAULT: "hsl(var(--cta))",
           foreground: "hsl(var(--cta-foreground))",
         },
+        "fin-navy": {
+          DEFAULT: "hsl(var(--fin-navy))",
+          foreground: "hsl(var(--fin-navy-foreground))",
+        },
+        "fin-indigo": {
+          DEFAULT: "hsl(var(--fin-indigo))",
+          foreground: "hsl(var(--fin-indigo-foreground))",
+        },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
