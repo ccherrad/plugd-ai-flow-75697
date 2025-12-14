@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <header className="w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border z-40 rounded-2xl flex justify-between items-center p-2 bg-card shadow-md backdrop-blur-sm">
       <a href="/" className="font-bold text-lg flex items-center">
-        <img src={logo} alt="PLUGD.AI" className="h-8" />
+        <img src={logo} alt="STCKD.AI" className="h-6" />
       </a>
 
       {/* Mobile Menu */}
@@ -38,7 +38,7 @@ const Navbar = () => {
           <SheetContent side="left" className="flex flex-col">
             <SheetHeader>
               <SheetTitle className="flex items-center">
-                <img src={logo} alt="PLUGD.AI" className="h-8" />
+                <img src={logo} alt="STCKD.AI" className="h-6" />
               </SheetTitle>
             </SheetHeader>
             <div className="flex flex-col gap-2 mt-8">
@@ -56,7 +56,7 @@ const Navbar = () => {
             </div>
             <div className="mt-auto">
               <Button className="w-full bg-cta hover:bg-cta/90 text-cta-foreground" asChild>
-                <a href="https://dev.plugd.space/" target="_blank" rel="noopener noreferrer">
+                <a href="https://dev.stckd.space/" target="_blank" rel="noopener noreferrer">
                   Get Early Access
                 </a>
               </Button>
@@ -80,7 +80,7 @@ const Navbar = () => {
 
       <div className="hidden lg:flex">
         <Button className="bg-cta hover:bg-cta/90 text-cta-foreground" asChild>
-          <a href="https://dev.plugd.space/" target="_blank" rel="noopener noreferrer">
+          <a href="https://dev.stckd.space/" target="_blank" rel="noopener noreferrer">
             Get Early Access
           </a>
         </Button>

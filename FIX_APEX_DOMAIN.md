@@ -3,7 +3,7 @@
 ## The New Error
 
 ```
-plugd.space is improperly configured
+stckd.space is improperly configured
 Domain does not resolve to the GitHub Pages server.
 (NotServedByPagesError)
 ```
@@ -12,15 +12,15 @@ Domain does not resolve to the GitHub Pages server.
 
 You successfully verified domain ownership! ✅
 
-However, GitHub Pages is now checking the **apex domain** (`plugd.space`) and finding it doesn't resolve to GitHub's servers.
+However, GitHub Pages is now checking the **apex domain** (`stckd.space`) and finding it doesn't resolve to GitHub's servers.
 
-When you use a www subdomain (`www.plugd.space`), GitHub also requires the apex domain to be properly configured.
+When you use a www subdomain (`www.stckd.space`), GitHub also requires the apex domain to be properly configured.
 
 ---
 
 ## The Solution: Add A Records for Apex Domain
 
-You need to configure the **apex domain** (`plugd.space`) to point to GitHub's servers.
+You need to configure the **apex domain** (`stckd.space`) to point to GitHub's servers.
 
 ### Go to Your Domain Registrar
 
@@ -28,7 +28,7 @@ Add these **4 A records** for the apex domain:
 
 ```
 Type: A
-Name: @  (or leave blank, or "plugd.space" - depends on registrar)
+Name: @  (or leave blank, or "stckd.space" - depends on registrar)
 Value: 185.199.108.153
 TTL: 3600
 ```
@@ -99,12 +99,12 @@ Value: [your verification code]
 
 ## What "@" Means
 
-The `@` symbol represents the **apex/root domain** (plugd.space without any subdomain).
+The `@` symbol represents the **apex/root domain** (stckd.space without any subdomain).
 
 Different registrars may want:
 - `@` (most common)
 - Leave the Name field blank
-- Enter the full domain: `plugd.space`
+- Enter the full domain: `stckd.space`
 
 Check your registrar's documentation if unsure.
 
@@ -114,7 +114,7 @@ Check your registrar's documentation if unsure.
 
 GitHub Pages needs the apex domain configured for two reasons:
 
-1. **Redirect traffic**: If someone visits `plugd.space`, GitHub can redirect to `www.plugd.space`
+1. **Redirect traffic**: If someone visits `stckd.space`, GitHub can redirect to `www.stckd.space`
 2. **SSL certificate**: GitHub provisions SSL for both apex and www subdomain
 3. **Verification**: GitHub verifies you control the entire domain
 
@@ -133,12 +133,12 @@ GitHub Pages needs the apex domain configured for two reasons:
 ## How to Verify It's Working
 
 ### Check DNS propagation for A records:
-Visit: https://dnschecker.org/#A/plugd.space
+Visit: https://dnschecker.org/#A/stckd.space
 
 You should see all 4 GitHub IP addresses showing globally.
 
 ### Check www CNAME (already working):
-Visit: https://dnschecker.org/#CNAME/www.plugd.space
+Visit: https://dnschecker.org/#CNAME/www.stckd.space
 
 Should show: `ccherrad.github.io` ✓
 
@@ -149,8 +149,8 @@ Should show: `ccherrad.github.io` ✓
 Once the A records propagate:
 
 1. The error in GitHub Pages settings should clear automatically
-2. Both `plugd.space` and `www.plugd.space` will work
-3. GitHub will redirect `plugd.space` → `www.plugd.space` (since you specified www in custom domain)
+2. Both `stckd.space` and `www.stckd.space` will work
+3. GitHub will redirect `stckd.space` → `www.stckd.space` (since you specified www in custom domain)
 4. HTTPS will be enabled for both
 
 ---
@@ -162,12 +162,12 @@ After adding A records and waiting for propagation:
 ### Test apex domain:
 ```bash
 # Should show GitHub's IPs
-nslookup plugd.space
+nslookup stckd.space
 ```
 
 ### Visit your site:
-- https://www.plugd.space (your primary URL)
-- https://plugd.space (will redirect to www)
+- https://www.stckd.space (your primary URL)
+- https://stckd.space (will redirect to www)
 
 Both should work!
 
@@ -186,7 +186,7 @@ No. DNS standards don't allow CNAME for apex domains. You must use A records.
 
 ### "Error still showing after 1 hour"
 - Verify all 4 A records are added correctly
-- Check DNS propagation: https://dnschecker.org/#A/plugd.space
+- Check DNS propagation: https://dnschecker.org/#A/stckd.space
 - Try removing and re-adding the custom domain in GitHub Pages settings
 - Wait up to 24 hours for full propagation
 
@@ -196,9 +196,9 @@ No. DNS standards don't allow CNAME for apex domains. You must use A records.
 
 If you don't want to configure the apex domain:
 
-1. You could try using only `www.plugd.space`
+1. You could try using only `www.stckd.space`
 2. But GitHub may still require apex configuration
-3. Users who type `plugd.space` (without www) won't reach your site
+3. Users who type `stckd.space` (without www) won't reach your site
 
 **Recommendation:** Add the A records - it's the proper configuration.
 
@@ -215,9 +215,9 @@ If you don't want to configure the apex domain:
 - [ ] Keep existing CNAME for `www` (don't delete!)
 - [ ] Save/publish DNS changes
 - [ ] Wait 10-60 minutes for propagation
-- [ ] Check: https://dnschecker.org/#A/plugd.space
+- [ ] Check: https://dnschecker.org/#A/stckd.space
 - [ ] Verify GitHub Pages error clears
-- [ ] Test: https://www.plugd.space
+- [ ] Test: https://www.stckd.space
 - [ ] Enable "Enforce HTTPS" once available
 
 ---

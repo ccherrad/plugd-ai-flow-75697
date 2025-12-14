@@ -126,7 +126,7 @@ const Workflows = () => {
         <div className="mt-12 text-center">
           <p className="text-muted-foreground">
             More workflows coming based on client needs.{" "}
-            <a href="mailto:hello@plugd.ai" className="text-primary hover:underline font-medium">
+            <a href="mailto:hello@stckd.ai" className="text-primary hover:underline font-medium">
               Tell us what you need
             </a>
           </p>

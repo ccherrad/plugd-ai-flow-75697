@@ -46,7 +46,7 @@ Cmd + Shift + R
 ### Solution 2: Try Incognito/Private Mode (1 minute)
 
 1. Open a new incognito/private window
-2. Visit: https://www.plugd.space
+2. Visit: https://www.stckd.space
 3. If it works here, it's a browser cache issue
 
 ### Solution 3: Wait for GitHub Pages Cache (10-60 minutes)
@@ -74,16 +74,16 @@ Force a new build and deployment:
 
 ### Solution 5: Check GitHub Pages Settings (2 minutes)
 
-1. Go to: https://github.com/ccherrad/plugd-ai-flow-75697/settings/pages
+1. Go to: https://github.com/ccherrad/stckd-ai-flow-75697/settings/pages
 2. Verify:
    - ✅ Source: `gh-pages` branch
-   - ✅ Custom domain: `www.plugd.space`
+   - ✅ Custom domain: `www.stckd.space`
    - ✅ Enforce HTTPS: Enabled (or available to enable)
 3. Try temporarily:
    - Remove the custom domain
    - Save
    - Wait 1 minute
-   - Add `www.plugd.space` back
+   - Add `www.stckd.space` back
    - Save
    - Wait 5 minutes and test
 
@@ -92,7 +92,7 @@ Force a new build and deployment:
 Let me confirm what's in place:
 
 ✅ **DNS Configuration**: All correct
-- www.plugd.space → ccherrad.github.io ✓
+- www.stckd.space → ccherrad.github.io ✓
 - Apex domain A records → GitHub IPs ✓
 
 ✅ **GitHub Pages**: Configured correctly
@@ -140,7 +140,7 @@ This is correct and required for Vite/React apps.
 
 Try accessing the JS file directly:
 ```
-https://www.plugd.space/assets/index-A0Wu_ckM.js
+https://www.stckd.space/assets/index-A0Wu_ckM.js
 ```
 
 - If it downloads instead of displaying: MIME type issue confirmed
@@ -150,7 +150,7 @@ https://www.plugd.space/assets/index-A0Wu_ckM.js
 
 Temporarily test:
 ```
-https://ccherrad.github.io/plugd-ai-flow-75697/
+https://ccherrad.github.io/stckd-ai-flow-75697/
 ```
 
 **Note:** This may also have MIME errors because vite config is set to `base: "/"` for the custom domain. But it's worth trying.

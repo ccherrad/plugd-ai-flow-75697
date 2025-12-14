@@ -24,7 +24,7 @@ const Team = () => {
       imageUrl: "https://api.dicebear.com/7.x/bottts/svg?seed=CharefCherrad",
       firstName: "Charef Eddine",
       lastName: "Cherrad",
-      positions: ["Founder", "Software Engineer"],
+      positions: ["Co-Founder", "Software Engineer"],
       socialNetworks: [
         {
           name: "LinkedIn",
@@ -40,7 +40,7 @@ const Team = () => {
       imageUrl: "https://api.dicebear.com/7.x/bottts/svg?seed=DjaballahDjedid",
       firstName: "Djaballah",
       lastName: "Djedid",
-      positions: ["Founder", "Software Engineer"],
+      positions: ["Co-Founder", "Software Engineer"],
       socialNetworks: [
         {
           name: "LinkedIn",
@@ -52,7 +52,7 @@ const Team = () => {
       imageUrl: "https://api.dicebear.com/7.x/bottts/svg?seed=AminaDebab",
       firstName: "Amina",
       lastName: "Debab",
-      positions: ["Founder", "Data Governance Expert"],
+      positions: ["Co-Founder", "Data Quality Engineer"],
       socialNetworks: [
         {
           name: "LinkedIn",
@@ -83,7 +83,7 @@ const Team = () => {
           Team
         </h2>
         <h2 className="text-3xl md:text-4xl text-center font-bold">
-          Meet the People Building PLUGD.AI
+          Meet the People Building STCKD.AI
         </h2>
         <p className="text-lg text-muted-foreground mt-4 max-w-2xl mx-auto">
           We've spent years helping businesses streamline operations, cut costs, and eliminate manual workflows.
@@ -144,7 +144,7 @@ const Team = () => {
           <p className="text-lg text-muted-foreground leading-relaxed mb-4 italic">
             "We all come from the IT field, and we've seen firsthand how quickly AI has transformed the way we work. In a very short time, it has made us more productive and significantly reduced errors. We want people in other fields to benefit from the same shift we're experiencing today. Our goal is to democratize AI—making it accessible, practical, and easy to use for smaller companies that don't have access to, or aren't clients of, big tech solutions."
           </p>
-          <p className="text-sm font-medium text-foreground">— The PLUGD.AI Team</p>
+          <p className="text-sm font-medium text-foreground">— The STCKD.AI Team</p>
         </div>
       </div>
     </section>
