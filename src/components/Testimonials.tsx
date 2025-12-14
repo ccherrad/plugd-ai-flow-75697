@@ -12,7 +12,7 @@ interface Testimonial {
   name: string;
   role: string;
   company?: string;
-  comment: string;
+  comment: string | JSX.Element;
   rating: number;
   avatar?: string;
 }
@@ -24,8 +24,11 @@ const Testimonials = () => {
       name: "Sarah Johnson",
       role: "CFO",
       company: "TechCorp",
-      comment:
-        "STCKD.AI has completely transformed how we handle procurement. The AI-powered anomaly detection caught pricing errors that saved us thousands in the first month alone.",
+      comment: (
+        <>
+          <span className="font-orbitron font-bold">STCKD.AI</span> has completely transformed how we handle procurement. The AI-powered anomaly detection caught pricing errors that saved us thousands in the first month alone.
+        </>
+      ),
       rating: 5,
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
     },
