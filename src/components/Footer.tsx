@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-span-full xl:col-span-2">
             <a href="/" className="flex font-bold items-center">
               <img src={logo} alt="STCKD.AI" className="h-9 w-9 mr-2" />
-              <h3 className="text-2xl">STCKD.AI</h3>
+              <h3 className="text-2xl font-orbitron font-bold">STCKD.AI</h3>
             </a>
             <p className="mt-4 text-sm text-muted-foreground max-w-sm">
               Financial documents intelligence hub for finance teams. Reduce errors, automate approvals, gain visibility.
@@ -113,7 +113,7 @@ const Footer = () => {
 
         <section>
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} STCKD.AI. All rights reserved.
+            &copy; {new Date().getFullYear()} <span className="font-orbitron font-bold">STCKD.AI</span>. All rights reserved.
           </p>
         </section>
       </div>
