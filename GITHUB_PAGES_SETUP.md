@@ -4,14 +4,14 @@
 
 ✅ **Build & Deployment**: Working correctly
 - GitHub Actions workflow builds and deploys to `gh-pages` branch
-- CNAME file configured with `www.plugd.space`
+- CNAME file configured with `www.stckd.space`
 - Vite base path set to `/` for custom domain
 
 ## Required Steps to Enable Custom Domain
 
 ### 1. DNS Configuration
 
-You need to configure DNS records for `plugd.space` with your domain registrar:
+You need to configure DNS records for `stckd.space` with your domain registrar:
 
 **Option A: Using www subdomain (Recommended)**
 Add a CNAME record:
@@ -22,7 +22,7 @@ Value: ccherrad.github.io
 TTL: 3600 (or your registrar's default)
 ```
 
-**Option B: Using apex domain (plugd.space)**
+**Option B: Using apex domain (stckd.space)**
 Add A records pointing to GitHub's IPs:
 ```
 Type: A
@@ -54,11 +54,11 @@ Value: ccherrad.github.io
 
 ### 2. GitHub Pages Settings
 
-1. Go to your repository: https://github.com/ccherrad/plugd-ai-flow-75697
+1. Go to your repository: https://github.com/ccherrad/stckd-ai-flow-75697
 2. Click on **Settings** tab
 3. Scroll to **Pages** section (left sidebar)
 4. Under **Source**, ensure it's set to deploy from `gh-pages` branch
-5. Under **Custom domain**, enter: `www.plugd.space`
+5. Under **Custom domain**, enter: `www.stckd.space`
 6. Click **Save**
 7. Wait for DNS check to complete (can take a few minutes)
 8. Once DNS check passes, enable **Enforce HTTPS** (recommended)
@@ -70,17 +70,17 @@ DNS changes can take 24-48 hours to fully propagate, but often complete in minut
 Check DNS propagation:
 ```bash
 # Check CNAME record
-nslookup www.plugd.space
+nslookup www.stckd.space
 
 # Or use online tools
-# https://www.whatsmydns.net/#CNAME/www.plugd.space
+# https://www.whatsmydns.net/#CNAME/www.stckd.space
 ```
 
 ### 4. Test Your Site
 
 Once DNS is configured and GitHub Pages recognizes the custom domain:
 
-1. Visit: https://www.plugd.space
+1. Visit: https://www.stckd.space
 2. Verify SSL certificate is active (green padlock in browser)
 3. Check that all assets load correctly
 
@@ -112,19 +112,19 @@ Once DNS is configured and GitHub Pages recognizes the custom domain:
 If you prefer not to use a custom domain, you can use the default GitHub Pages URL:
 
 1. Remove CNAME configuration:
-   - Update `vite.config.ts`: change `base: "/"` to `base: "/plugd-ai-flow-75697/"`
-   - Remove `cname: www.plugd.space` from `.github/workflows/deploy-pages.yml`
+   - Update `vite.config.ts`: change `base: "/"` to `base: "/stckd-ai-flow-75697/"`
+   - Remove `cname: www.stckd.space` from `.github/workflows/deploy-pages.yml`
 2. Commit and push changes
-3. Access site at: https://ccherrad.github.io/plugd-ai-flow-75697/
+3. Access site at: https://ccherrad.github.io/stckd-ai-flow-75697/
 
 ## Current URLs
 
-- **Default GitHub Pages**: https://ccherrad.github.io/plugd-ai-flow-75697/
-- **Custom Domain** (once configured): https://www.plugd.space
+- **Default GitHub Pages**: https://ccherrad.github.io/stckd-ai-flow-75697/
+- **Custom Domain** (once configured): https://www.stckd.space
 
 ## Next Steps
 
 1. Configure DNS with your domain registrar
 2. Set custom domain in GitHub Pages settings
 3. Wait for DNS propagation
-4. Test your site at https://www.plugd.space
+4. Test your site at https://www.stckd.space

@@ -74,7 +74,7 @@ const Vision = () => {
             The result? Finance teams spend 60-70% of their time on manual document processing instead of strategic analysis.
           </p>
           <p className="text-base text-muted-foreground mt-4">
-            We built PLUGD.AI to fix this — a central hub where documents flow in, get intelligently processed, and feed the insights you need.
+            We built STCKD.AI to fix this — a central hub where documents flow in, get intelligently processed, and feed the insights you need.
           </p>
         </div>
       </div>

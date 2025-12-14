@@ -25,7 +25,7 @@ const Testimonials = () => {
       role: "CFO",
       company: "TechCorp",
       comment:
-        "PLUGD.AI has completely transformed how we handle procurement. The AI-powered anomaly detection caught pricing errors that saved us thousands in the first month alone.",
+        "STCKD.AI has completely transformed how we handle procurement. The AI-powered anomaly detection caught pricing errors that saved us thousands in the first month alone.",
       rating: 5,
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
     },
@@ -122,7 +122,7 @@ const Testimonials = () => {
         <p className="text-muted-foreground">
           Want to share your experience?{" "}
           <a
-            href="mailto:hello@plugd.ai"
+            href="mailto:hello@stckd.ai"
             className="text-primary hover:underline font-medium"
           >
             Contact us

@@ -7,7 +7,7 @@ const JoinTransformation = () => {
     {
       icon: Rocket,
       title: "Early Access",
-      description: "Be among the first to experience PLUGD.AI and shape its development with your feedback."
+      description: "Be among the first to experience STCKD.AI and shape its development with your feedback."
     },
     {
       icon: Users,

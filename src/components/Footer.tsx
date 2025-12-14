@@ -10,8 +10,8 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="col-span-full xl:col-span-2">
             <a href="/" className="flex font-bold items-center">
-              <img src={logo} alt="PLUGD.AI" className="h-9 w-9 mr-2" />
-              <h3 className="text-2xl">PLUGD.AI</h3>
+              <img src={logo} alt="STCKD.AI" className="h-9 w-9 mr-2" />
+              <h3 className="text-2xl">STCKD.AI</h3>
             </a>
             <p className="mt-4 text-sm text-muted-foreground max-w-sm">
               Financial documents intelligence hub for finance teams. Reduce errors, automate approvals, gain visibility.
@@ -31,7 +31,7 @@ const Footer = () => {
               Roadmap
             </a>
             <a
-              href="https://dev.plugd.space/"
+              href="https://dev.stckd.space/"
               target="_blank"
               rel="noopener noreferrer"
               className="opacity-60 hover:opacity-100 text-sm"
@@ -46,7 +46,7 @@ const Footer = () => {
             <a href="#team" className="opacity-60 hover:opacity-100 text-sm">
               Team
             </a>
-            <a href="mailto:hello@plugd.ai" className="opacity-60 hover:opacity-100 text-sm">
+            <a href="mailto:hello@stckd.ai" className="opacity-60 hover:opacity-100 text-sm">
               Contact Us
             </a>
             <a href="#faq" className="opacity-60 hover:opacity-100 text-sm">
@@ -58,7 +58,7 @@ const Footer = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Resources</h3>
             <a
-              href="https://dev.plugd.space/"
+              href="https://dev.stckd.space/"
               target="_blank"
               rel="noopener noreferrer"
               className="opacity-60 hover:opacity-100 text-sm"
@@ -72,7 +72,7 @@ const Footer = () => {
             <h3 className="font-bold text-lg">Connect</h3>
             <div className="flex gap-4 mt-2">
               <a
-                href="https://linkedin.com/company/plugd-ai"
+                href="https://linkedin.com/company/stckd-ai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="opacity-60 hover:opacity-100"
@@ -90,7 +90,7 @@ const Footer = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://twitter.com/plugd_ai"
+                href="https://twitter.com/stckd_ai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="opacity-60 hover:opacity-100"
@@ -99,7 +99,7 @@ const Footer = () => {
                 <Twitter className="h-5 w-5" />
               </a>
               <a
-                href="mailto:hello@plugd.ai"
+                href="mailto:hello@stckd.ai"
                 className="opacity-60 hover:opacity-100"
                 aria-label="Email"
               >
@@ -113,7 +113,7 @@ const Footer = () => {
 
         <section>
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} PLUGD.AI. All rights reserved.
+            &copy; {new Date().getFullYear()} STCKD.AI. All rights reserved.
           </p>
         </section>
       </div>

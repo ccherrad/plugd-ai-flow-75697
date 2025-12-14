@@ -35,7 +35,7 @@ const Hero = () => {
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
             <Button size="lg" className="w-5/6 md:w-auto font-bold group/arrow bg-cta hover:bg-cta/90 text-cta-foreground px-8" asChild>
-              <a href="https://dev.plugd.space/" target="_blank" rel="noopener noreferrer">
+              <a href="https://dev.stckd.space/" target="_blank" rel="noopener noreferrer">
                 Join Early Access
                 <ArrowRight className="ml-2 h-5 w-5 group-hover/arrow:translate-x-1 transition-transform" />
               </a>
@@ -66,7 +66,7 @@ const Hero = () => {
                 <div className="w-3 h-3 rounded-full bg-green-500"></div>
               </div>
               <div className="flex-1 text-center text-sm text-muted-foreground">
-                PLUGD.AI Dashboard
+                STCKD.AI Dashboard
               </div>
             </div>
 
@@ -74,14 +74,14 @@ const Hero = () => {
             <div className="aspect-video bg-gradient-to-br from-primary/5 via-accent/5 to-background flex items-center justify-center">
               <div className="text-center space-y-4 p-8">
                 <div className="inline-flex p-3 bg-primary/10 rounded-full mb-4">
-                  <img src={logo} alt="PLUGD.AI" className="h-16 w-16" />
+                  <img src={logo} alt="STCKD.AI" className="h-16 w-16" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground">Financial Documents Hub</h3>
                 <p className="text-muted-foreground max-w-md">
                   Centralized platform for ingesting, classifying, extracting, and managing all your financial documents with AI assistance.
                 </p>
                 <Button className="bg-cta hover:bg-cta/90 text-cta-foreground" asChild>
-                  <a href="https://dev.plugd.space/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://dev.stckd.space/" target="_blank" rel="noopener noreferrer">
                     View Live Demo
                   </a>
                 </Button>

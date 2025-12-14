@@ -1,4 +1,4 @@
-# DNS & GitHub Pages Diagnosis for www.plugd.space
+# DNS & GitHub Pages Diagnosis for www.stckd.space
 
 ## Possible Issues Based on DNS Checker Results
 
@@ -6,7 +6,7 @@
 **Symptoms:** DNS checker shows "No record found" or no results
 **Cause:** CNAME record hasn't been created at your domain registrar
 **Solution:**
-1. Log into your domain registrar (where you bought plugd.space)
+1. Log into your domain registrar (where you bought stckd.space)
 2. Find DNS settings/DNS management
 3. Add CNAME record:
    - Type: CNAME
@@ -21,7 +21,7 @@
 **Symptoms:** DNS checker shows CNAME but points to something other than `ccherrad.github.io`
 **Cause:** CNAME is misconfigured
 **Common mistakes:**
-- Points to `ccherrad.github.io/plugd-ai-flow-75697` (incorrect - no path in CNAME)
+- Points to `ccherrad.github.io/stckd-ai-flow-75697` (incorrect - no path in CNAME)
 - Points to old hosting provider
 - Points to `www.ccherrad.github.io` (incorrect - no www prefix)
 
@@ -31,13 +31,13 @@
 
 ### Scenario 3: DNS Correct But GitHub Pages Not Configured
 **Symptoms:**
-- DNS checker shows `www.plugd.space` → `ccherrad.github.io` ✓
-- But visiting www.plugd.space shows 404 or doesn't load
+- DNS checker shows `www.stckd.space` → `ccherrad.github.io` ✓
+- But visiting www.stckd.space shows 404 or doesn't load
 **Cause:** GitHub Pages custom domain setting not configured
 
 **Solution:**
-1. Go to: https://github.com/ccherrad/plugd-ai-flow-75697/settings/pages
-2. Under "Custom domain", enter: `www.plugd.space`
+1. Go to: https://github.com/ccherrad/stckd-ai-flow-75697/settings/pages
+2. Under "Custom domain", enter: `www.stckd.space`
 3. Click "Save"
 4. Wait for GitHub to verify DNS (green checkmark should appear)
 5. Enable "Enforce HTTPS"
@@ -60,7 +60,7 @@
 
 #### B. HTTPS Certificate Not Ready
 - GitHub can take up to 24 hours to provision SSL
-- Temporarily try http://www.plugd.space (not recommended for production)
+- Temporarily try http://www.stckd.space (not recommended for production)
 - Check GitHub Pages settings for certificate status
 
 #### C. GitHub Pages Source Branch Issue
@@ -81,15 +81,15 @@ Run through this checklist to identify your specific issue:
 - [ ] TTL is reasonable (300-3600 seconds)
 
 ### ✓ GitHub Pages Settings
-- [ ] Repository: https://github.com/ccherrad/plugd-ai-flow-75697/settings/pages
+- [ ] Repository: https://github.com/ccherrad/stckd-ai-flow-75697/settings/pages
 - [ ] Source branch: `gh-pages`
-- [ ] Custom domain field contains: `www.plugd.space`
+- [ ] Custom domain field contains: `www.stckd.space`
 - [ ] DNS check shows green checkmark
 - [ ] "Enforce HTTPS" can be enabled (means DNS working)
 
 ### ✓ Deployment Status
 - [ ] `gh-pages` branch exists
-- [ ] CNAME file in `gh-pages` contains: `www.plugd.space`
+- [ ] CNAME file in `gh-pages` contains: `www.stckd.space`
 - [ ] Latest commit on `main` triggered workflow
 - [ ] GitHub Actions workflow completed successfully
 
@@ -104,7 +104,7 @@ Run through this checklist to identify your specific issue:
 ## Common Error Messages & Solutions
 
 ### "404 - File not found"
-**When visiting www.plugd.space:**
+**When visiting www.stckd.space:**
 - GitHub Pages not configured with custom domain
 - Wrong source branch selected
 - Deployment hasn't completed yet
@@ -137,10 +137,10 @@ Run through this checklist to identify your specific issue:
 ### 1. Check DNS (Command Line)
 ```bash
 # Check CNAME record
-nslookup www.plugd.space
+nslookup www.stckd.space
 
 # Expected output should include:
-# www.plugd.space canonical name = ccherrad.github.io
+# www.stckd.space canonical name = ccherrad.github.io
 ```
 
 ### 2. Check GitHub Pages Deployment
@@ -149,7 +149,7 @@ nslookup www.plugd.space
 git fetch origin gh-pages
 git checkout gh-pages
 cat CNAME
-# Should output: www.plugd.space
+# Should output: www.stckd.space
 
 # Check latest deployment
 ls -la
@@ -157,7 +157,7 @@ ls -la
 ```
 
 ### 3. Check GitHub Actions
-Visit: https://github.com/ccherrad/plugd-ai-flow-75697/actions
+Visit: https://github.com/ccherrad/stckd-ai-flow-75697/actions
 - Latest workflow should be green (successful)
 - Click on latest run to see deployment details
 
@@ -183,7 +183,7 @@ To verify if the issue is DNS or GitHub configuration:
 
 **Test the default GitHub Pages URL:**
 ```
-https://ccherrad.github.io/plugd-ai-flow-75697/
+https://ccherrad.github.io/stckd-ai-flow-75697/
 ```
 
 - If this works: Issue is with custom domain (DNS or GitHub Pages setting)
@@ -195,12 +195,12 @@ https://ccherrad.github.io/plugd-ai-flow-75697/
 
 ## Next Steps
 
-1. **Check DNS Checker Results**: What does https://dnschecker.org/#CNAME/www.plugd.space show?
+1. **Check DNS Checker Results**: What does https://dnschecker.org/#CNAME/www.stckd.space show?
    - Green checks everywhere? → DNS is good, check GitHub Pages settings
    - Red X's or "No record"? → Need to configure DNS at registrar
    - Mixed results? → Wait for propagation (few hours)
 
-2. **Check GitHub Pages Settings**: https://github.com/ccherrad/plugd-ai-flow-75697/settings/pages
+2. **Check GitHub Pages Settings**: https://github.com/ccherrad/stckd-ai-flow-75697/settings/pages
    - Is custom domain field filled in?
    - Does it show a green checkmark next to the domain?
    - Is the source set to `gh-pages` branch?
@@ -208,4 +208,4 @@ https://ccherrad.github.io/plugd-ai-flow-75697/
 3. **Report back with:**
    - DNS checker results (CNAME value if any)
    - GitHub Pages custom domain status
-   - Any error messages when visiting www.plugd.space
+   - Any error messages when visiting www.stckd.space

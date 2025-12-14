@@ -2,10 +2,10 @@
 
 ## The Problem
 
-When trying to add `www.plugd.space` as a custom domain in GitHub Pages settings, you're getting:
+When trying to add `www.stckd.space` as a custom domain in GitHub Pages settings, you're getting:
 
 ```
-The custom domain `www.plugd.space` is already taken.
+The custom domain `www.stckd.space` is already taken.
 ```
 
 ## Why This Happens
@@ -28,7 +28,7 @@ You need to verify domain ownership at your **GitHub account level** (not reposi
 ### Step 2: Add Domain for Verification
 
 1. Under **"Verified domains"** section, click **"Add a domain"**
-2. Enter: `plugd.space` (use the apex domain, not www subdomain)
+2. Enter: `stckd.space` (use the apex domain, not www subdomain)
 3. Click **"Add domain"**
 
 ### Step 3: Get Your Verification Code
@@ -36,7 +36,7 @@ You need to verify domain ownership at your **GitHub account level** (not reposi
 GitHub will provide you with a **TXT record** that looks like:
 
 ```
-_github-pages-challenge-ccherrad.plugd.space
+_github-pages-challenge-ccherrad.stckd.space
 ```
 
 With a value like:
@@ -47,12 +47,12 @@ abcd1234efgh5678ijkl9012mnop3456
 
 ### Step 4: Add TXT Record to DNS
 
-Go to your domain registrar (where you bought plugd.space) and add a **TXT record**:
+Go to your domain registrar (where you bought stckd.space) and add a **TXT record**:
 
 ```
 Type:  TXT
 Name:  _github-pages-challenge-ccherrad
-Host:  _github-pages-challenge-ccherrad.plugd.space (depends on registrar)
+Host:  _github-pages-challenge-ccherrad.stckd.space (depends on registrar)
 Value: [the code GitHub gave you]
 TTL:   3600
 ```
@@ -60,7 +60,7 @@ TTL:   3600
 **Important Notes:**
 - Different registrars have different formats for the "Name" field
 - Some want just: `_github-pages-challenge-ccherrad`
-- Others want the full: `_github-pages-challenge-ccherrad.plugd.space`
+- Others want the full: `_github-pages-challenge-ccherrad.stckd.space`
 - If unsure, try both formats or check your registrar's documentation
 
 ### Step 5: Verify in GitHub
@@ -75,8 +75,8 @@ TTL:   3600
 
 Once the domain is verified at the account level:
 
-1. Go to your repository: https://github.com/ccherrad/plugd-ai-flow-75697/settings/pages
-2. Under **"Custom domain"**, enter: `www.plugd.space`
+1. Go to your repository: https://github.com/ccherrad/stckd-ai-flow-75697/settings/pages
+2. Under **"Custom domain"**, enter: `www.stckd.space`
 3. Click **"Save"**
 4. It should now accept it without the "already taken" error
 5. Wait for DNS check to pass
@@ -101,7 +101,7 @@ If you don't want to add a TXT record, you can verify by adding a file to your r
 
 4. The file needs to be accessible at:
    ```
-   https://ccherrad.github.io/plugd-ai-flow-75697/.github-pages-verification-ccherrad-abcd1234.txt
+   https://ccherrad.github.io/stckd-ai-flow-75697/.github-pages-verification-ccherrad-abcd1234.txt
    ```
 
 **Note:** This method is less reliable because it requires the default GitHub Pages URL to work, which may not with your current configuration.
@@ -112,8 +112,8 @@ If you don't want to add a TXT record, you can verify by adding a file to your r
 
 The **TXT record method is preferred** because:
 - ✅ Works independently of repository configuration
-- ✅ Verifies apex domain (plugd.space)
-- ✅ Allows using www.plugd.space or any subdomain
+- ✅ Verifies apex domain (stckd.space)
+- ✅ Allows using www.stckd.space or any subdomain
 - ✅ More reliable and permanent
 
 ---
@@ -122,18 +122,18 @@ The **TXT record method is preferred** because:
 
 - [ ] Go to https://github.com/settings/pages
 - [ ] Click "Add a domain" under "Verified domains"
-- [ ] Enter `plugd.space` (apex domain)
+- [ ] Enter `stckd.space` (apex domain)
 - [ ] Copy the TXT record name and value GitHub provides
 - [ ] Add TXT record to DNS at your domain registrar
 - [ ] Wait 5-10 minutes for DNS propagation
 - [ ] Click "Verify" in GitHub settings
 - [ ] Confirm green checkmark appears
-- [ ] Go to repository settings: https://github.com/ccherrad/plugd-ai-flow-75697/settings/pages
-- [ ] Enter `www.plugd.space` in Custom domain field
+- [ ] Go to repository settings: https://github.com/ccherrad/stckd-ai-flow-75697/settings/pages
+- [ ] Enter `www.stckd.space` in Custom domain field
 - [ ] Click Save
 - [ ] Wait for DNS check to pass
 - [ ] Enable "Enforce HTTPS"
-- [ ] Visit https://www.plugd.space to test
+- [ ] Visit https://www.stckd.space to test
 
 ---
 
@@ -155,14 +155,14 @@ The **TXT record method is preferred** because:
 
 **Solutions:**
 - Wait longer (up to 1 hour) for DNS propagation
-- Verify TXT record is correct using: https://dnschecker.org/#TXT/_github-pages-challenge-ccherrad.plugd.space
+- Verify TXT record is correct using: https://dnschecker.org/#TXT/_github-pages-challenge-ccherrad.stckd.space
 - Check if your registrar requires different format for Name field
 - Try adding both with and without the domain suffix
 
 ### TXT record not showing up in DNS checker
 
 **Solutions:**
-- Verify you added it to the correct domain (plugd.space, not www.plugd.space)
+- Verify you added it to the correct domain (stckd.space, not www.stckd.space)
 - Some registrars have "@" for apex domain
 - Double-check the Name field format
 - Save/publish changes at your registrar (some require explicit publish)
@@ -170,7 +170,7 @@ The **TXT record method is preferred** because:
 ### Still says "already taken" after verification
 
 **Solutions:**
-- Make sure you verified the **apex domain** (plugd.space) not www subdomain
+- Make sure you verified the **apex domain** (stckd.space) not www subdomain
 - Check that verification shows green checkmark at https://github.com/settings/pages
 - Try logging out and back into GitHub
 - Wait a few minutes and try again
