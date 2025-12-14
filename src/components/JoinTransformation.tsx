@@ -27,7 +27,7 @@ const JoinTransformation = () => {
     {
       icon: Lightbulb,
       title: "Co-Innovation",
-      description: "Influence the product roadmap and help build the future of procurement automation."
+      description: "Influence the product roadmap and help build the future of financial document automation."
     },
     {
       icon: Target,
@@ -45,11 +45,11 @@ const JoinTransformation = () => {
             Join the Transformation
           </h2>
           <h3 className="text-3xl md:text-5xl font-bold mb-6">
-            Be Part of the Procurement Revolution
+            Be Part of the Financial Document Revolution
           </h3>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            We're building the future of procurement automation with AI. Join us as a design partner
-            and help shape a solution that transforms how businesses handle financial documents,
+            We're building a comprehensive ecosystem for financial document automation with AI. Join us as a design partner
+            and help shape a solution that transforms how businesses handle all their financial documents,
             eliminate manual processing, and unlock unprecedented efficiency.
           </p>
         </div>
@@ -85,7 +85,7 @@ const JoinTransformation = () => {
               </h4>
               <p className="text-lg mb-6 text-primary-foreground/90">
                 We're looking for forward-thinking finance and operations leaders who want to
-                revolutionize their procurement process. Get exclusive early access and help us
+                revolutionize how they handle financial documents. Get exclusive early access and help us
                 build the perfect solution for your needs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
