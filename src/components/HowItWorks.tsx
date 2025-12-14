@@ -1,6 +1,7 @@
 import { Upload, Tags, FileSearch, CheckCircle, FolderTree, Sparkles, Bot, Users, MessageSquare, ThumbsUp, ThumbsDown, Edit3, Database, BarChart3, XCircle, Scan, Clock, AlertTriangle, FileWarning, DollarSign } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import logo from "@/assets/logo.svg";
 
 const HowItWorks = () => {
   const steps = [
@@ -128,8 +129,8 @@ const HowItWorks = () => {
           <div className="inline-block mb-6 px-4 py-2 bg-primary/10 rounded-full text-sm font-medium text-primary">
             The Document Intelligence Pipeline
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            From Chaos to Control: How <span className="font-orbitron font-bold">STCKD.AI</span> Works
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6 flex items-center justify-center gap-2">
+            From Chaos to Control: How <img src={logo} alt="STCKD.AI" className="h-12 inline-block" /> Works
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Every step in our AI-powered workflow tackles a specific challenge finance teams face — transforming manual document processing into intelligent automation with human oversight

@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Star } from "lucide-react";
+import logo from "@/assets/logo.svg";
 
 interface Testimonial {
   name: string;
@@ -25,9 +26,9 @@ const Testimonials = () => {
       role: "CFO",
       company: "TechCorp",
       comment: (
-        <>
-          <span className="font-orbitron font-bold">STCKD.AI</span> has completely transformed how we handle procurement. The AI-powered anomaly detection caught pricing errors that saved us thousands in the first month alone.
-        </>
+        <span>
+          <img src={logo} alt="STCKD.AI" className="h-3.5 inline-block mx-0.5" /> has completely transformed how we handle procurement. The AI-powered anomaly detection caught pricing errors that saved us thousands in the first month alone.
+        </span>
       ),
       rating: 5,
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",

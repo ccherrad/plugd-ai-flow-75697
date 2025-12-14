@@ -1,6 +1,7 @@
 import { Rocket, Users, Zap, Target, Lightbulb, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import logo from "@/assets/logo.svg";
 
 const JoinTransformation = () => {
   const benefits = [
@@ -8,9 +9,9 @@ const JoinTransformation = () => {
       icon: Rocket,
       title: "Early Access",
       description: (
-        <>
-          Be among the first to experience <span className="font-orbitron font-bold">STCKD.AI</span> and shape its development with your feedback.
-        </>
+        <span className="flex items-center gap-1 justify-center">
+          Be among the first to experience <img src={logo} alt="STCKD.AI" className="h-4 inline-block mx-0.5" /> and shape its development with your feedback.
+        </span>
       )
     },
     {
