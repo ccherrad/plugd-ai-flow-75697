@@ -1,4 +1,5 @@
 import { Scan, DollarSign, Clock, AlertTriangle, FileWarning, Users } from "lucide-react";
+import logo from "@/assets/logo.svg";
 
 const Vision = () => {
   const painPoints = [
@@ -73,8 +74,8 @@ const Vision = () => {
           <p className="text-xl md:text-2xl font-bold text-foreground mb-4">
             The result? Finance teams spend 60-70% of their time on manual document processing instead of strategic analysis.
           </p>
-          <p className="text-base text-muted-foreground mt-4">
-            We built <span className="font-orbitron font-bold">STCKD.AI</span> to fix this — a central hub where documents flow in, get intelligently processed, and feed the insights you need.
+          <p className="text-base text-muted-foreground mt-4 flex items-center justify-center">
+            we built<img src={logo} alt="STCKD.AI" className="h-4 inline-block" />to fix this — a central hub where documents flow in, get intelligently processed, and feed the insights you need.
           </p>
         </div>
       </div>

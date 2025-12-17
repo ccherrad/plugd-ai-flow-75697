@@ -6,6 +6,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Linkedin, Github, Twitter } from "lucide-react";
+import logo from "@/assets/logo.svg";
 
 interface TeamMember {
   imageUrl: string;
@@ -82,8 +83,8 @@ const Team = () => {
         <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
           Team
         </h2>
-        <h2 className="text-3xl md:text-4xl text-center font-bold">
-          Meet the People Building <span className="font-orbitron font-bold">STCKD.AI</span>
+        <h2 className="text-3xl md:text-4xl text-center font-bold flex items-center justify-center">
+          meet the people building<img src={logo} alt="STCKD.AI" className="h-9 inline-block" />
         </h2>
         <p className="text-lg text-muted-foreground mt-4 max-w-2xl mx-auto">
           We've spent years helping businesses streamline operations, cut costs, and eliminate manual workflows.
@@ -144,7 +145,7 @@ const Team = () => {
           <p className="text-lg text-muted-foreground leading-relaxed mb-4 italic">
             "We all come from the IT field, and we've seen firsthand how quickly AI has transformed the way we work. In a very short time, it has made us more productive and significantly reduced errors. We want people in other fields to benefit from the same shift we're experiencing today. Our goal is to democratize AI—making it accessible, practical, and easy to use for smaller companies that don't have access to, or aren't clients of, big tech solutions."
           </p>
-          <p className="text-sm font-medium text-foreground">— The <span className="font-orbitron font-bold">STCKD.AI</span> Team</p>
+          <p className="text-sm font-medium text-foreground flex items-center justify-center">— the<img src={logo} alt="STCKD.AI" className="h-3 inline-block" />team</p>
         </div>
       </div>
     </section>

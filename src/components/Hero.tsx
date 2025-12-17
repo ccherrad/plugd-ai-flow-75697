@@ -65,8 +65,8 @@ const Hero = () => {
                 <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                 <div className="w-3 h-3 rounded-full bg-green-500"></div>
               </div>
-              <div className="flex-1 text-center text-sm text-muted-foreground">
-                <span className="font-orbitron font-bold">STCKD.AI</span> Dashboard
+              <div className="flex-1 text-center text-sm text-muted-foreground flex items-center justify-center">
+                <img src={logo} alt="STCKD.AI" className="h-3.5 inline-block" />dashboard
               </div>
             </div>
 
