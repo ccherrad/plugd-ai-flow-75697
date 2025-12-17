@@ -9,8 +9,8 @@ const JoinTransformation = () => {
       icon: Rocket,
       title: "Early Access",
       description: (
-        <span className="flex items-center gap-1 justify-center">
-          Be among the first to experience <img src={logo} alt="STCKD.AI" className="h-4 inline-block mx-0.5" /> and shape its development with your feedback.
+        <span className="flex items-center justify-center">
+          be among the first to experience<img src={logo} alt="STCKD.AI" className="h-4 inline-block" />and shape its development with your feedback.
         </span>
       )
     },

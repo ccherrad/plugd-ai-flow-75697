@@ -111,8 +111,8 @@ const Footer = () => {
         <Separator className="my-6" />
 
         <section>
-          <p className="text-sm text-muted-foreground flex items-center gap-1">
-            &copy; {new Date().getFullYear()} <img src={logo} alt="STCKD.AI" className="h-3.5 inline-block" />. All rights reserved.
+          <p className="text-sm text-muted-foreground flex items-center">
+            &copy; {new Date().getFullYear()}<img src={logo} alt="STCKD.AI" className="h-3.5 inline-block" />. all rights reserved.
           </p>
         </section>
       </div>

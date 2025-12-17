@@ -27,7 +27,7 @@ const Testimonials = () => {
       company: "TechCorp",
       comment: (
         <span>
-          <img src={logo} alt="STCKD.AI" className="h-3.5 inline-block mx-0.5" /> has completely transformed how we handle procurement. The AI-powered anomaly detection caught pricing errors that saved us thousands in the first month alone.
+          <img src={logo} alt="STCKD.AI" className="h-3.5 inline-block" />has completely transformed how we handle procurement. the AI-powered anomaly detection caught pricing errors that saved us thousands in the first month alone.
         </span>
       ),
       rating: 5,
