@@ -112,7 +112,7 @@ const Footer = () => {
 
         <section>
           <p className="text-sm text-muted-foreground flex items-center">
-            &copy; {new Date().getFullYear()}<img src={logo} alt="STCKD.AI" className="h-3.5 inline-block" />. all rights reserved.
+            &copy; {new Date().getFullYear()} <img src={logo} alt="STCKD.AI" className="h-3.5 inline-block align-middle" />. all rights reserved.
           </p>
         </section>
       </div>

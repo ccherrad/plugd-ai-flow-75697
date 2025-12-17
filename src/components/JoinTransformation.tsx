@@ -10,7 +10,7 @@ const JoinTransformation = () => {
       title: "Early Access",
       description: (
         <span className="flex items-center justify-center">
-          be among the first to experience<img src={logo} alt="STCKD.AI" className="h-4 inline-block" />and shape its development with your feedback.
+          be among the first to experience <img src={logo} alt="STCKD.AI" className="h-4 inline-block align-middle" /> and shape its development with your feedback.
         </span>
       )
     },
