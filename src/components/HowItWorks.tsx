@@ -129,8 +129,8 @@ const HowItWorks = () => {
           <div className="inline-block mb-6 px-4 py-2 bg-primary/10 rounded-full text-sm font-medium text-primary">
             The Document Intelligence Pipeline
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6 flex items-center justify-center">
-            from chaos to control: how <img src={logo} alt="STCKD.AI" className="h-12 inline-block align-middle" /> works
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6 text-center">
+            from chaos to control: how <img src={logo} alt="STCKD.AI" className="h-10 md:h-12 inline-block align-middle mx-2" /> works
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Every step in our AI-powered workflow tackles a specific challenge finance teams face — transforming manual document processing into intelligent automation with human oversight
