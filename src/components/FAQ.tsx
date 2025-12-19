@@ -17,12 +17,12 @@ const FAQ = () => {
     {
       question: (
         <span className="flex items-center">
-          what is<img src={logo} alt="STCKD.AI" className="h-4 inline-block" />?
+          what is <img src={logo} alt="STCKD.AI" className="h-4 inline-block align-middle" />?
         </span>
       ),
       answer: (
         <span className="flex items-start">
-          <img src={logo} alt="STCKD.AI" className="h-4 inline-block" />is a financial documents intelligence hub that assists and automates document processing for finance teams. we centralize financial documents across different workflows (procurement, compliance, operations), use AI to classify and extract information, manage approval workflows, and build unified catalogs that enable monitoring and reconciliation. currently automating procurement, KYC/AML, and mortgage workflows.
+          <img src={logo} alt="STCKD.AI" className="h-4 inline-block align-middle" /> is a financial documents intelligence hub that assists and automates document processing for finance teams. we centralize financial documents across different workflows (procurement, compliance, operations), use AI to classify and extract information, manage approval workflows, and build unified catalogs that enable monitoring and reconciliation. currently automating procurement, KYC/AML, and mortgage workflows.
         </span>
       ),
       value: "item-1",
@@ -31,7 +31,7 @@ const FAQ = () => {
       question: "How do documents get into the system?",
       answer: (
         <span>
-          you have two options: (1) manual upload — drag and drop PDFs or images directly into<img src={logo} alt="STCKD.AI" className="h-3.5 inline-block" />, or (2) automated channels — configure integrations to automatically consume documents from emails, ERPs, accounting systems, or cloud storage. once in, our AI takes over the classification and extraction.
+          you have two options: (1) manual upload — drag and drop PDFs or images directly into <img src={logo} alt="STCKD.AI" className="h-3.5 inline-block align-middle" />, or (2) automated channels — configure integrations to automatically consume documents from emails, ERPs, accounting systems, or cloud storage. once in, our AI takes over the classification and extraction.
         </span>
       ),
       value: "item-2",
@@ -57,12 +57,12 @@ const FAQ = () => {
     {
       question: (
         <span className="flex items-center">
-          what makes<img src={logo} alt="STCKD.AI" className="h-4 inline-block" />different from OCR/extraction tools?
+          what makes <img src={logo} alt="STCKD.AI" className="h-4 inline-block align-middle" /> different from OCR/extraction tools?
         </span>
       ),
       answer: (
         <span>
-          most tools only extract data.<img src={logo} alt="STCKD.AI" className="h-3.5 inline-block" />manages the complete lifecycle: ingestion → classification → extraction → approval workflows → catalog building → reconciliation and monitoring. we don't just pull numbers from PDFs—we understand document types, route them through the right approvals, and build a unified catalog that reduces errors and gives you financial visibility.
+          most tools only extract data. <img src={logo} alt="STCKD.AI" className="h-3.5 inline-block align-middle" /> manages the complete lifecycle: ingestion → classification → extraction → approval workflows → catalog building → reconciliation and monitoring. we don't just pull numbers from PDFs—we understand document types, route them through the right approvals, and build a unified catalog that reduces errors and gives you financial visibility.
         </span>
       ),
       value: "item-6",
